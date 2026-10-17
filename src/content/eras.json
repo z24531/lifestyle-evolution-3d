@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "eras": [
+    {
+      "id": "hunter-gatherer",
+      "index": 0,
+      "title": "采集狩猎",
+      "subtitle": "居无定所，直接取食于自然",
+      "themeColor": "#E8793A",
+      "model": "/assets/models/era1/scene.glb",
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            { "id": "fire", "label": "篝火", "note": "火的驯化" },
+            { "id": "stone-tool", "label": "打制石器", "note": "砍砸器/石斧" }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            { "id": "hunt", "label": "围猎野兽", "note": "" },
+            { "id": "gather", "label": "采集浆果", "note": "" }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [{ "id": "cave", "label": "洞穴", "note": "天然岩棚" }]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [{ "id": "walk", "label": "步行迁徙", "note": "" }]
+        }
+      ],
+      "knowledgePoints": [
+        {
+          "id": "kp-fire",
+          "anchor": { "mesh": "fire" },
+          "title": "火的驯化",
+          "body": "学会用火让人类能吃熟食、御寒、驱兽，是早期最重要的能源突破。",
+          "data": [{ "label": "时间", "value": "约100–40万年前（有争议）", "source": "" }]
+        }
+      ],
+      "infoLayer": {
+        "items": [
+          { "id": "cave-painting", "label": "洞穴壁画" },
+          { "id": "oral", "label": "口耳相传" }
+        ]
+      }
+    },
+    {
+      "id": "agriculture",
+      "index": 1,
+      "title": "农耕",
+      "subtitle": "定居、驯化动植物、出现剩余与储藏",
+      "themeColor": "#8FAE3B",
+      "model": "/assets/models/era2/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    },
+    {
+      "id": "craft-iron",
+      "index": 2,
+      "title": "手工业 / 铁器",
+      "subtitle": "金属工具、城邦与贸易",
+      "themeColor": "#A8662A",
+      "model": "/assets/models/era3/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    },
+    {
+      "id": "steam",
+      "index": 3,
+      "title": "蒸汽工业",
+      "subtitle": "机器替代人力，工厂与城市化",
+      "themeColor": "#6B6B6B",
+      "model": "/assets/models/era4/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    },
+    {
+      "id": "electric",
+      "index": 4,
+      "title": "电气",
+      "subtitle": "电与内燃机重塑生产与生活",
+      "themeColor": "#F2B705",
+      "model": "/assets/models/era5/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    },
+    {
+      "id": "information",
+      "index": 5,
+      "title": "信息",
+      "subtitle": "计算机与互联网连接世界",
+      "themeColor": "#2E86DE",
+      "model": "/assets/models/era6/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    },
+    {
+      "id": "intelligence",
+      "index": 6,
+      "title": "智能",
+      "subtitle": "AI、物联网与可持续",
+      "themeColor": "#7C4DFF",
+      "model": "/assets/models/era7/scene.glb",
+      "axes": [],
+      "knowledgePoints": [],
+      "infoLayer": { "items": [] }
+    }
+  ]
+}
