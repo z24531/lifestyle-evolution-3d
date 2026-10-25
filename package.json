@@ -10,6 +10,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "format": "prettier --write .",
+    "validate": "node scripts/validate-content.mjs",
+    "test": "vitest run",
+    "shots": "node scripts/screenshot.mjs",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -29,8 +32,10 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10",
+    "puppeteer-core": "^25.16.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.71.2",
-    "vite": "^8.3.4"
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
   }
 }

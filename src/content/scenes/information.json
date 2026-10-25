@@ -1,0 +1,37 @@
+{
+  "eraId": "information",
+  "ground": {
+    "top": "#66707E",
+    "side": "#3C4453",
+    "underside": "#232934",
+    "scatter": { "type": "grass-tuft", "count": 12 }
+  },
+  "props": [
+    { "type": "computer", "pos": [-3.4, 0, -3.0], "rotY": -2.85, "anchorId": "computer" },
+    { "type": "chip", "pos": [-7.8, 0, -4.2], "rotY": 0.2, "anchorId": "chip" },
+    { "type": "server", "pos": [-6.9, 0, -8.4], "rotY": 3.03, "anchorId": "server" },
+    { "type": "server", "pos": [-10.2, 0, -2.8], "rotY": 3.1 },
+    { "type": "satellite-dish", "pos": [-3.1, 0, -8.7], "rotY": -2.85 },
+    { "type": "satellite-dish", "pos": [-9.3, 0, -7.6], "rotY": 3.1 },
+    { "type": "satellite-dish", "pos": [-10.4, 0, -5.0], "rotY": 3.09 },
+    { "type": "tree-broadleaf", "pos": [-7.4, 0, 5.6], "rotY": 0.4, "scale": 1.1 },
+    { "type": "tree-broadleaf", "pos": [-4.2, 0, 8.4], "rotY": 1.7, "scale": 0.95 },
+    { "type": "bush-berry", "pos": [-9.2, 0, 8.6], "rotY": 0.8, "scale": 1.1 },
+    { "type": "bush-berry", "pos": [-3.0, 0, 4.0], "rotY": 2.2 },
+    { "type": "tree-conifer", "pos": [-10.0, 0, 2.2], "rotY": 0.3, "scale": 1.05 },
+    { "type": "bush-berry", "pos": [-6.0, 0, 2.8], "rotY": 1.1 },
+    { "type": "bush-berry", "pos": [-3.4, 0, 2.7], "rotY": 0.5 },
+    { "type": "office-tower", "pos": [5.2, 0, -6.0], "rotY": -2.58 },
+    { "type": "office-tower", "pos": [8.8, 0, -3.0], "rotY": -2.53, "scale": 0.65 },
+    { "type": "tv", "pos": [2.9, 0, -9.3], "rotY": -2.58 },
+    { "type": "tv", "pos": [7.6, 0, -9.6], "rotY": -2.42 },
+    { "type": "tv", "pos": [9.0, 0, -5.8], "rotY": -2.47, "scale": 0.9 },
+    { "type": "bullet-train", "pos": [5.2, 0, 3.1], "rotY": 1.5708, "scale": 0.8 },
+    { "type": "highway", "pos": [5.4, 0, 4.9], "rotY": 0, "scale": 0.6 },
+    { "type": "container-ship", "pos": [8.9, 0, 7.8], "rotY": 0.05, "scale": 0.55 },
+    { "type": "highway", "pos": [6.6, 0, 8.2], "rotY": 0.1, "scale": 0.5 },
+    { "type": "jet", "pos": [-10.2, 5.0, 5.4], "rotY": 2.05, "scale": 1.25 },
+    { "type": "cloud", "pos": [-6.0, 7.5, 4.5], "rotY": 0.4, "scale": 1.1 },
+    { "type": "cloud", "pos": [8.0, 8.5, -3.5], "rotY": 0.9, "scale": 0.9 }
+  ]
+}

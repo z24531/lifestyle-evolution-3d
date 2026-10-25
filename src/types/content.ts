@@ -39,7 +39,8 @@ export interface Era {
   title: string;
   subtitle: string;
   themeColor: string;
-  model: string;
+  /** 未来接 glb 资产的插槽;程序化渲染不读取。 */
+  model?: string;
   axes: Axis[];
   knowledgePoints: KnowledgePoint[];
   infoLayer: { items: InfoLayerItem[] };

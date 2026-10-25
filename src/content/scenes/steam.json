@@ -1,0 +1,38 @@
+{
+  "eraId": "steam",
+  "ground": {
+    "top": "#6E675D",
+    "side": "#4A4237",
+    "underside": "#2A241F"
+  },
+  "props": [
+    { "type": "factory", "pos": [-8.6, 0, -4.4], "rotY": 0.22 },
+    { "type": "steam-engine", "pos": [-3.4, 0, -5.0], "rotY": 0.6, "anchorId": "steam-engine" },
+    { "type": "chimney", "pos": [-6.4, 0, -8.8], "rotY": 0.3, "params": { "h": 1 } },
+    { "type": "coal-pile", "pos": [-2.4, 0, -8.8], "rotY": -0.4, "scale": 1.05 },
+    { "type": "gas-lamp", "pos": [-2.2, 0, -2.3], "rotY": 0 },
+    { "type": "city", "pos": [4.4, 0, -5.2], "rotY": -0.2, "anchorId": "city" },
+    { "type": "chimney", "pos": [2.6, 0, -10.4], "rotY": 0.15, "params": { "h": 0.9 } },
+    { "type": "gas-lamp", "pos": [6.4, 0, -9.8], "rotY": 0 },
+    { "type": "gas-lamp", "pos": [8.0, 0, -2.2], "rotY": 0 },
+    { "type": "warehouse", "pos": [10.2, 0, -4.2], "rotY": 1.45, "scale": 0.75 },
+    { "type": "factory", "pos": [-4.6, 0, 8.8], "rotY": 0.35, "scale": 0.85 },
+    { "type": "warehouse", "pos": [-9.4, 0, 3.0], "rotY": 1.35, "scale": 0.9 },
+    { "type": "warehouse", "pos": [-3.4, 0, 4.2], "rotY": -0.3, "scale": 0.7 },
+    {
+      "type": "locomotive",
+      "pos": [7.6, 0, 8.2],
+      "rotY": 0.05,
+      "scale": 1.2,
+      "anchorId": "locomotive"
+    },
+    { "type": "rail-track", "pos": [7.6, 0, 5.8], "rotY": 0.05 },
+    { "type": "rail-track", "pos": [4.0, 0, 3.2], "rotY": 0 },
+    { "type": "coal-pile", "pos": [9.2, 0, 2.4], "rotY": 0.5, "scale": 0.9 },
+    { "type": "telegraph", "pos": [2.4, 0, 6.4], "rotY": 1.45, "anchorId": "telegraph" },
+    { "type": "gas-lamp", "pos": [5.2, 0, 10.2], "rotY": 0 },
+    { "type": "gas-lamp", "pos": [2.2, 0, 10.4], "rotY": 0 },
+    { "type": "cloud", "pos": [-7.5, 11.0, 2.5], "rotY": 0.4, "scale": 0.9 },
+    { "type": "cloud", "pos": [8.0, 11.5, 9.0], "rotY": 1.1, "scale": 0.95 }
+  ]
+}

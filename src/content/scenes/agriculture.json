@@ -1,0 +1,83 @@
+{
+  "eraId": "agriculture",
+  "ground": {
+    "top": "#8A9A55",
+    "side": "#6B5638",
+    "underside": "#3A3026",
+    "scatter": { "type": "grass-tuft", "count": 16 }
+  },
+  "props": [
+    { "type": "well", "pos": [-5.0, 0, -4.2], "rotY": 0.35 },
+    { "type": "pottery", "pos": [-9.0, 0, -3.0], "rotY": 0.6, "scale": 0.85 },
+    { "type": "pottery", "pos": [-9.2, 0, -5.0], "rotY": 2.2 },
+    { "type": "cattle", "pos": [-4.6, 0, -7.8], "rotY": 0.7, "scale": 1.12 },
+    {
+      "type": "cattle",
+      "pos": [-7.0, 0, -8.6],
+      "rotY": 2.1,
+      "scale": 1.12,
+      "params": { "coat": "#B98A5E" }
+    },
+    { "type": "wattle-fence", "pos": [-3.6, 0, -6.6], "rotY": 0.1 },
+    {
+      "type": "wattle-fence",
+      "pos": [-9.4, 0, -7.8],
+      "rotY": 1.45,
+      "params": { "posts": 4, "length": 3.0 }
+    },
+    { "type": "rock", "pos": [-2.4, 0, -2.6], "rotY": 0.8, "params": { "count": 2, "size": 0.7 } },
+    { "type": "tree-conifer", "pos": [-2.0, 0, -10.2], "rotY": 0.4, "scale": 1.05 },
+
+    {
+      "type": "field",
+      "pos": [-6.9, 0, 3.9],
+      "rotY": 0.06,
+      "scale": 0.95,
+      "anchorId": "field",
+      "params": { "rows": 5 }
+    },
+    {
+      "type": "rice-paddy",
+      "pos": [-6.6, 0, 8.5],
+      "rotY": -0.05,
+      "scale": 0.9,
+      "anchorId": "rice-paddy",
+      "params": { "rows": 4 }
+    },
+    { "type": "granary", "pos": [-2.8, 0, 4.5], "rotY": 0.4, "scale": 0.9 },
+    { "type": "pottery", "pos": [-3.3, 0, 7.2], "rotY": 1.1, "scale": 0.9 },
+    { "type": "pottery", "pos": [-2.0, 0, 6.6], "rotY": 0.8, "scale": 0.85 },
+    { "type": "wattle-fence", "pos": [-3.0, 0, 9.9], "rotY": 1.35 },
+
+    { "type": "village-house", "pos": [5.8, 0, -4.8], "rotY": -0.2 },
+    {
+      "type": "village-house",
+      "pos": [7.9, 0, -8.0],
+      "rotY": 2.75,
+      "scale": 0.64,
+      "params": { "roof": "#A9703F" }
+    },
+    { "type": "tablet", "pos": [3.1, 0, -3.5], "rotY": 0.5, "anchorId": "tablet" },
+    { "type": "wattle-fence", "pos": [4.6, 0, -8.8], "rotY": 0.15 },
+    { "type": "bush-berry", "pos": [2.6, 0, -6.3], "rotY": 1.4 },
+    { "type": "tree-broadleaf", "pos": [9.8, 0, -2.8], "rotY": 1.2 },
+
+    { "type": "wheel", "pos": [4.8, 0, 4.0], "rotY": 0.7, "scale": 1.15, "anchorId": "wheel" },
+    { "type": "ox-cart", "pos": [7.3, 0, 5.2], "rotY": -2.25 },
+    { "type": "cattle", "pos": [3.2, 0, 8.2], "rotY": 1.1, "scale": 1.12 },
+    {
+      "type": "cattle",
+      "pos": [6.8, 0, 9.4],
+      "rotY": 0.2,
+      "scale": 1.12,
+      "params": { "coat": "#B98A5E" }
+    },
+    { "type": "tree-conifer", "pos": [9.9, 0, 2.7], "rotY": -0.5 },
+    { "type": "rock", "pos": [4.2, 0, 10.6], "rotY": 0.5, "params": { "count": 1, "size": 0.7 } },
+
+    { "type": "bush-berry", "pos": [1.0, 0, 10.2], "rotY": 1.6, "scale": 1.05 },
+    { "type": "cloud", "pos": [-5.5, 11.2, 1.5], "rotY": 0.4, "scale": 1.1 },
+    { "type": "cloud", "pos": [6.2, 12.4, -2.4], "rotY": 2.0, "scale": 0.85 },
+    { "type": "cloud", "pos": [2.0, 10.4, 8.6], "rotY": 1.2, "scale": 0.7 }
+  ]
+}

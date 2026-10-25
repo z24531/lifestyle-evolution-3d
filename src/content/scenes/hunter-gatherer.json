@@ -1,0 +1,182 @@
+{
+  "eraId": "hunter-gatherer",
+  "ground": {
+    "top": "#8A7350",
+    "side": "#5A4630",
+    "underside": "#4A3B2A",
+    "scatter": {
+      "type": "grass-tuft",
+      "count": 16
+    }
+  },
+  "props": [
+    {
+      "type": "fire",
+      "pos": [0, 0, 0],
+      "anchorId": "fire"
+    },
+    {
+      "type": "cave",
+      "pos": [6.4, 0, -6.4],
+      "rotY": 0.15,
+      "scale": 1.15,
+      "anchorId": "cave"
+    },
+    {
+      "type": "tent-hide",
+      "pos": [3.8, 0, -3.2],
+      "rotY": 0.6,
+      "scale": 1.1
+    },
+    {
+      "type": "tent-hide",
+      "pos": [9.2, 0, -2.2],
+      "rotY": -1.2,
+      "scale": 0.9
+    },
+    {
+      "type": "stone-tool",
+      "pos": [-6.2, 0, -6],
+      "rotY": 0.4
+    },
+    {
+      "type": "rock",
+      "pos": [-8.4, 0, -2.6],
+      "rotY": 0.7,
+      "params": {
+        "count": 4,
+        "size": 1.2
+      }
+    },
+    {
+      "type": "rock",
+      "pos": [2.2, 0, -9],
+      "rotY": 1.9,
+      "params": {
+        "count": 3
+      }
+    },
+    {
+      "type": "rock",
+      "pos": [-2, 0, 8.8],
+      "rotY": 0.2,
+      "params": {
+        "count": 2,
+        "size": 0.8
+      }
+    },
+    {
+      "type": "tree-conifer",
+      "pos": [-9.6, 0, 3.4],
+      "rotY": 0.3,
+      "scale": 1.1
+    },
+    {
+      "type": "tree-conifer",
+      "pos": [-7.4, 0, 7.2],
+      "rotY": 1.4,
+      "scale": 0.9
+    },
+    {
+      "type": "tree-broadleaf",
+      "pos": [9.6, 0, 5.6],
+      "rotY": 2.1,
+      "scale": 1.05
+    },
+    {
+      "type": "bush-berry",
+      "pos": [-5.6, 0, 4.6],
+      "rotY": 0.9,
+      "scale": 1.15
+    },
+    {
+      "type": "bush-berry",
+      "pos": [-3, 0, 5.6],
+      "rotY": 2.4
+    },
+    {
+      "type": "deer",
+      "pos": [-8.6, 0, 0.6],
+      "rotY": 1.1,
+      "scale": 1.05
+    },
+    {
+      "type": "hunter",
+      "pos": [-3.6, 0, 5.4],
+      "rotY": 2.5,
+      "params": {
+        "pose": "walk"
+      }
+    },
+    {
+      "type": "hunter",
+      "pos": [-4.9, 0, 3.4],
+      "rotY": 2.2,
+      "scale": 0.95
+    },
+    {
+      "type": "hunter",
+      "pos": [5.2, 0, 6.4],
+      "rotY": -1.9,
+      "params": {
+        "pose": "walk",
+        "spear": false
+      }
+    },
+    {
+      "type": "spear",
+      "pos": [6.6, 0, 8.2],
+      "rotY": -0.7
+    },
+    {
+      "type": "cloud",
+      "pos": [-6.5, 11.5, 2.5],
+      "rotY": 0.4,
+      "scale": 1.2
+    },
+    {
+      "type": "cloud",
+      "pos": [7, 13.2, -3],
+      "rotY": 2,
+      "scale": 0.9
+    },
+    {
+      "type": "cloud",
+      "pos": [0.5, 9.8, 9],
+      "rotY": 1.1,
+      "scale": 0.7
+    },
+    {
+      "type": "mammoth",
+      "pos": [-7.4, 0, 1.2],
+      "rotY": 0.95,
+      "scale": 1.05
+    },
+    {
+      "type": "bone-pile",
+      "pos": [-5.2, 0, -1.2],
+      "rotY": 0.3
+    },
+    {
+      "type": "tree-conifer",
+      "pos": [9.8, 0, -6.2],
+      "rotY": 2.4,
+      "scale": 0.95
+    },
+    {
+      "type": "rock",
+      "pos": [7.8, 0, 8.6],
+      "rotY": 1.1,
+      "params": {
+        "count": 3,
+        "size": 0.9
+      }
+    },
+    {
+      "type": "roast-spit",
+      "pos": [2.4, 0, 1],
+      "rotY": 0.35,
+      "anchorId": "roast"
+    }
+  ]
+}

@@ -13,33 +13,63 @@
           "key": "energy-tool",
           "label": "能源与工具",
           "elements": [
-            { "id": "fire", "label": "篝火", "note": "火的驯化" },
-            { "id": "stone-tool", "label": "打制石器", "note": "砍砸器/石斧" }
+            {
+              "id": "fire",
+              "label": "篝火",
+              "note": "火的驯化"
+            },
+            {
+              "id": "stone-tool",
+              "label": "打制石器",
+              "note": "砍砸器/石斧"
+            }
           ]
         },
         {
           "key": "food",
           "label": "食物",
           "elements": [
-            { "id": "hunt", "label": "围猎野兽", "note": "" },
-            { "id": "gather", "label": "采集浆果", "note": "" }
+            {
+              "id": "hunt",
+              "label": "围猎野兽",
+              "note": ""
+            },
+            {
+              "id": "gather",
+              "label": "采集浆果",
+              "note": ""
+            }
           ]
         },
         {
           "key": "shelter",
           "label": "居住",
-          "elements": [{ "id": "cave", "label": "洞穴", "note": "天然岩棚" }]
+          "elements": [
+            {
+              "id": "cave",
+              "label": "洞穴",
+              "note": "天然岩棚"
+            }
+          ]
         },
         {
           "key": "transport",
           "label": "交通",
-          "elements": [{ "id": "walk", "label": "步行迁徙", "note": "" }]
+          "elements": [
+            {
+              "id": "walk",
+              "label": "步行迁徙",
+              "note": ""
+            }
+          ]
         }
       ],
       "knowledgePoints": [
         {
           "id": "kp-fire",
-          "anchor": { "mesh": "fire" },
+          "anchor": {
+            "mesh": "fire"
+          },
           "title": "火的驯化",
           "body": "学会用火让人类能吃熟食、御寒、驱兽，是早期最重要的能源突破。最早确证用火可追溯至约100万年前（南非 Wonderwerk 洞穴），刻意生火的新证据约41.5万年前。",
           "data": [
@@ -52,7 +82,9 @@
         },
         {
           "id": "kp-cooked",
-          "anchor": { "mesh": "fire" },
+          "anchor": {
+            "mesh": "roast"
+          },
           "title": "火烤熟食",
           "body": "最早确证的火烤熟食约78万年前（以色列 Gesher Benot Ya'aqov 烤鱼齿釉质受热证据）；“生食→熟食”的起点整体仍有争议。",
           "data": [
@@ -65,7 +97,9 @@
         },
         {
           "id": "kp-lifespan",
-          "anchor": { "mesh": "cave" },
+          "anchor": {
+            "mesh": "cave"
+          },
           "title": "人均寿命",
           "body": "采集狩猎时代出生时预期寿命约30–35岁，但被极高婴儿死亡率拉低；活到成年者众数死亡年龄约68–78岁，并非“人人只活到30岁”。",
           "data": [
@@ -79,8 +113,14 @@
       ],
       "infoLayer": {
         "items": [
-          { "id": "cave-painting", "label": "洞穴壁画" },
-          { "id": "oral", "label": "口耳相传" }
+          {
+            "id": "cave-painting",
+            "label": "洞穴壁画"
+          },
+          {
+            "id": "oral",
+            "label": "口耳相传"
+          }
         ]
       }
     },
@@ -91,11 +131,82 @@
       "subtitle": "定居、驯化动植物、出现剩余与储藏",
       "themeColor": "#8FAE3B",
       "model": "/assets/models/era2/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "ox-plow",
+              "label": "畜力牛耕"
+            },
+            {
+              "id": "polished-stone",
+              "label": "磨制石器"
+            },
+            {
+              "id": "pottery",
+              "label": "陶器"
+            },
+            {
+              "id": "irrigation",
+              "label": "灌溉"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "domestic-crops",
+              "label": "驯化小麦/水稻"
+            },
+            {
+              "id": "livestock",
+              "label": "家畜"
+            },
+            {
+              "id": "granary",
+              "label": "粮仓与陶罐储存"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "village",
+              "label": "定居村落"
+            },
+            {
+              "id": "mud-house",
+              "label": "土坯/木构房屋"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "pack-animal",
+              "label": "步行与畜力驮运"
+            },
+            {
+              "id": "wheel",
+              "label": "轮子（约前 3500 年）"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-fertile-crescent",
-          "anchor": { "mesh": "field" },
+          "anchor": {
+            "mesh": "field"
+          },
           "title": "新月沃地农业",
           "body": "农业约1.2万年前起源于新月沃地，“约前9600年”落在该区间内；精确起点与“单一起源 vs 多中心”仍有分歧，建议用区间表述。",
           "data": [
@@ -108,7 +219,9 @@
         },
         {
           "id": "kp-rice",
-          "anchor": { "mesh": "rice-paddy" },
+          "anchor": {
+            "mesh": "rice-paddy"
+          },
           "title": "水稻驯化",
           "body": "长江下游上山文化水稻驯化始于约公元前8000–7000年（植硅体碳-14定年）；注意“栽培”与“完全驯化”的术语差异。",
           "data": [
@@ -121,7 +234,9 @@
         },
         {
           "id": "kp-wheel",
-          "anchor": { "mesh": "wheel" },
+          "anchor": {
+            "mesh": "wheel"
+          },
           "title": "轮子",
           "body": "轮子约公元前3500年出现于美索不达米亚/新月沃地；争议在起源地而非年代。",
           "data": [
@@ -134,7 +249,9 @@
         },
         {
           "id": "kp-cuneiform",
-          "anchor": { "mesh": "tablet" },
+          "anchor": {
+            "mesh": "tablet"
+          },
           "title": "楔形文字",
           "body": "原始楔形文字约公元前3400–3300年出现于乌鲁克；成熟楔形文字常记作约公元前3200年。",
           "data": [
@@ -146,7 +263,18 @@
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "cuneiform",
+            "label": "楔形文字（约前 3400 年）"
+          },
+          {
+            "id": "clay-token",
+            "label": "陶符与岩画"
+          }
+        ]
+      }
     },
     {
       "id": "craft-iron",
@@ -155,11 +283,82 @@
       "subtitle": "金属工具、城邦与贸易",
       "themeColor": "#A8662A",
       "model": "/assets/models/era3/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "smelting",
+              "label": "青铜/铁器冶炼"
+            },
+            {
+              "id": "sail-watermill",
+              "label": "风帆、水车与风车"
+            },
+            {
+              "id": "loom",
+              "label": "纺织机"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "intensive-farming",
+              "label": "精耕农业"
+            },
+            {
+              "id": "water-mill",
+              "label": "水磨磨坊"
+            },
+            {
+              "id": "salt-spice",
+              "label": "盐与香料贸易"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "city-state",
+              "label": "城邦与城市"
+            },
+            {
+              "id": "brick-temple",
+              "label": "砖石宫殿神庙"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "horse-carriage",
+              "label": "马车"
+            },
+            {
+              "id": "sailing-ship",
+              "label": "帆船"
+            },
+            {
+              "id": "silk-road",
+              "label": "罗马大道与丝绸之路"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-bronze-iron",
-          "anchor": { "mesh": "furnace" },
+          "anchor": {
+            "mesh": "furnace"
+          },
           "title": "青铜与铁器",
           "body": "青铜时代约始于前3300年、铁器时代约始于前1200年，此为近东惯例年代，全球各文明差异很大。",
           "data": [
@@ -172,7 +371,9 @@
         },
         {
           "id": "kp-paper-printing",
-          "anchor": { "mesh": "paper" },
+          "anchor": {
+            "mesh": "paper"
+          },
           "title": "造纸与印刷",
           "body": "造纸术约105年（蔡伦进献改良纸，更早纸约前2世纪已有出土，归属有争议）；雕版印刷约7–8世纪，868年《金刚经》为最早有纪年印刷品；活字印刷毕昇约1040年代。",
           "data": [
@@ -194,7 +395,18 @@
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "oracle-bone",
+            "label": "甲骨文 / 纸莎草 / 竹简"
+          },
+          {
+            "id": "book-wood",
+            "label": "抄写书籍与烽火驿传"
+          }
+        ]
+      }
     },
     {
       "id": "steam",
@@ -203,11 +415,74 @@
       "subtitle": "机器替代人力，工厂与城市化",
       "themeColor": "#6B6B6B",
       "model": "/assets/models/era4/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "watt-engine",
+              "label": "瓦特蒸汽机（1769）"
+            },
+            {
+              "id": "coal",
+              "label": "煤炭"
+            },
+            {
+              "id": "textile-machine",
+              "label": "纺织机"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "canned-food",
+              "label": "食品罐头（1810）"
+            },
+            {
+              "id": "rail-coldchain",
+              "label": "铁路冷链雏形"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "industrial-city",
+              "label": "工业城市"
+            },
+            {
+              "id": "worker-rowhouse",
+              "label": "工人排屋"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "steam-train",
+              "label": "蒸汽火车（1825）"
+            },
+            {
+              "id": "steamboat",
+              "label": "蒸汽轮船（1807）"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-watt",
-          "anchor": { "mesh": "steam-engine" },
+          "anchor": {
+            "mesh": "steam-engine"
+          },
           "title": "瓦特蒸汽机",
           "body": "瓦特1769年获分离式冷凝器蒸汽机改良专利；分离冷凝设想约1765年形成，实用化约1776年量产。",
           "data": [
@@ -220,7 +495,9 @@
         },
         {
           "id": "kp-railway",
-          "anchor": { "mesh": "locomotive" },
+          "anchor": {
+            "mesh": "locomotive"
+          },
           "title": "铁路与汽船",
           "body": "斯托克顿—达灵顿铁路1825年开通（首条蒸汽牵引公共铁路）；富尔顿“克莱蒙特号”1807年首航（首条商业化成功客运汽船）。",
           "data": [
@@ -238,7 +515,9 @@
         },
         {
           "id": "kp-telegraph",
-          "anchor": { "mesh": "telegraph" },
+          "anchor": {
+            "mesh": "telegraph"
+          },
           "title": "电报",
           "body": "摩尔斯1837年制成并演示电磁电报；首次公开演示1838年，首条商用线路1844年。",
           "data": [
@@ -251,7 +530,9 @@
         },
         {
           "id": "kp-lifespan",
-          "anchor": { "mesh": "city" },
+          "anchor": {
+            "mesh": "city"
+          },
           "title": "工业时代人均寿命",
           "body": "工业化初期英格兰与威尔士出生时预期寿命约30–40岁，被婴儿死亡率压低；成年人剩余预期寿命更高。",
           "data": [
@@ -263,7 +544,18 @@
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "telegraph",
+            "label": "电报（1837）"
+          },
+          {
+            "id": "newspaper",
+            "label": "大众化报纸"
+          }
+        ]
+      }
     },
     {
       "id": "electric",
@@ -272,11 +564,78 @@
       "subtitle": "电与内燃机重塑生产与生活",
       "themeColor": "#F2B705",
       "model": "/assets/models/era5/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "generator-grid",
+              "label": "发电机与电网"
+            },
+            {
+              "id": "lightbulb",
+              "label": "电灯（1879）"
+            },
+            {
+              "id": "assembly-line",
+              "label": "流水线（1913）"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "fridge",
+              "label": "家用冰箱（1913）"
+            },
+            {
+              "id": "canned-frozen",
+              "label": "罐头与冷冻普及"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "skyscraper",
+              "label": "钢筋摩天楼"
+            },
+            {
+              "id": "home-appliance",
+              "label": "电力入户与家电"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "car",
+              "label": "汽车（1886）"
+            },
+            {
+              "id": "airplane",
+              "label": "飞机（1903）"
+            },
+            {
+              "id": "tram-metro",
+              "label": "电车与地铁"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-lightbulb",
-          "anchor": { "mesh": "lightbulb" },
+          "anchor": {
+            "mesh": "lightbulb"
+          },
           "title": "电灯与电话",
           "body": "爱迪生实用白炽灯1879年；贝尔电话专利1876年获批。发明归属存在争议（电灯 vs Swan/电弧灯；电话贝尔 vs Gray/Meucci）。",
           "data": [
@@ -294,7 +653,9 @@
         },
         {
           "id": "kp-car-plane",
-          "anchor": { "mesh": "car" },
+          "anchor": {
+            "mesh": "car"
+          },
           "title": "汽车与飞机",
           "body": "本茨汽车1886年（首次试驶1885年）；莱特兄弟首次动力飞行1903年。",
           "data": [
@@ -312,7 +673,9 @@
         },
         {
           "id": "kp-lifespan",
-          "anchor": { "mesh": "skyline" },
+          "anchor": {
+            "mesh": "skyline"
+          },
           "title": "20世纪人均寿命",
           "body": "全球出生时预期寿命从1900年约31–32岁升至2000年约66–67岁，大致翻倍。",
           "data": [
@@ -324,7 +687,18 @@
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "telephone",
+            "label": "电话（1876）"
+          },
+          {
+            "id": "radio-tv",
+            "label": "无线电广播与电视"
+          }
+        ]
+      }
     },
     {
       "id": "information",
@@ -333,11 +707,78 @@
       "subtitle": "计算机与互联网连接世界",
       "themeColor": "#2E86DE",
       "model": "/assets/models/era6/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "transistor",
+              "label": "晶体管（1947）"
+            },
+            {
+              "id": "ic",
+              "label": "集成电路（1958）"
+            },
+            {
+              "id": "nuclear-solar",
+              "label": "核能与光伏"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "cold-chain",
+              "label": "冷链全球化"
+            },
+            {
+              "id": "fastfood-supermarket",
+              "label": "快餐与超市"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "office-tower",
+              "label": "城市摩天楼"
+            },
+            {
+              "id": "suburb-ac",
+              "label": "郊区住宅与空调"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "jet",
+              "label": "喷气客机（1958）"
+            },
+            {
+              "id": "high-speed-rail",
+              "label": "高铁（1964）"
+            },
+            {
+              "id": "container-ship",
+              "label": "集装箱航运"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-transistor",
-          "anchor": { "mesh": "chip" },
+          "anchor": {
+            "mesh": "chip"
+          },
           "title": "晶体管与集成电路",
           "body": "晶体管1947年（贝尔实验室）；集成电路1958年（基尔比）。诺伊斯同期独立发明，与基尔比并称共同发明人。",
           "data": [
@@ -355,7 +796,9 @@
         },
         {
           "id": "kp-internet",
-          "anchor": { "mesh": "computer" },
+          "anchor": {
+            "mesh": "computer"
+          },
           "title": "互联网与万维网",
           "body": "ARPANET 1969年首次传输；手机1973年首次手持移动电话通话；万维网1989年提出、1991年公开发布。",
           "data": [
@@ -378,7 +821,9 @@
         },
         {
           "id": "kp-lifespan",
-          "anchor": { "mesh": "server" },
+          "anchor": {
+            "mesh": "server"
+          },
           "title": "信息时代人均寿命",
           "body": "全球人均预期寿命从1950年约46岁升至2000年约68岁；65–75岁是同期高收入国家水平，非全球平均。",
           "data": [
@@ -390,7 +835,22 @@
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "arpanet",
+            "label": "互联网（ARPANET 1969）"
+          },
+          {
+            "id": "pc",
+            "label": "个人电脑"
+          },
+          {
+            "id": "www",
+            "label": "万维网（1991）"
+          }
+        ]
+      }
     },
     {
       "id": "intelligence",
@@ -399,11 +859,74 @@
       "subtitle": "AI、物联网与可持续",
       "themeColor": "#7C4DFF",
       "model": "/assets/models/era7/scene.glb",
-      "axes": [],
+      "axes": [
+        {
+          "key": "energy-tool",
+          "label": "能源与工具",
+          "elements": [
+            {
+              "id": "solar-wind",
+              "label": "光伏与风电"
+            },
+            {
+              "id": "ai-chip",
+              "label": "AI 算力芯片"
+            },
+            {
+              "id": "robot-iot",
+              "label": "机器人与物联网"
+            }
+          ]
+        },
+        {
+          "key": "food",
+          "label": "食物",
+          "elements": [
+            {
+              "id": "delivery",
+              "label": "外卖与即时配送"
+            },
+            {
+              "id": "plant-meat",
+              "label": "植物肉与精准农业"
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "label": "居住",
+          "elements": [
+            {
+              "id": "smart-home",
+              "label": "智能家居"
+            },
+            {
+              "id": "green-building",
+              "label": "绿色建筑与远程办公"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": "交通",
+          "elements": [
+            {
+              "id": "ev",
+              "label": "电动车与共享出行"
+            },
+            {
+              "id": "autonomous",
+              "label": "自动驾驶"
+            }
+          ]
+        }
+      ],
       "knowledgePoints": [
         {
           "id": "kp-smartphone",
-          "anchor": { "mesh": "smartphone" },
+          "anchor": {
+            "mesh": "smartphone"
+          },
           "title": "智能手机与5G",
           "body": "iPhone 2007年发布；5G 2019年商用（韩国全球首个）。注意“智能手机”概念早于iPhone（IBM Simon 1993、爱立信R380 2000）。",
           "data": [
@@ -421,7 +944,9 @@
         },
         {
           "id": "kp-solar",
-          "anchor": { "mesh": "solar-panel" },
+          "anchor": {
+            "mesh": "solar-panel"
+          },
           "title": "光伏成本",
           "body": "全球光伏LCOE从2010年约0.46美元/kWh降至2023年0.044美元/kWh（约降90%），2024年进一步降至约0.036美元/kWh。",
           "data": [
@@ -434,7 +959,9 @@
         },
         {
           "id": "kp-lifespan",
-          "anchor": { "mesh": "city" },
+          "anchor": {
+            "mesh": "city"
+          },
           "title": "全球人均寿命",
           "body": "WHO 2023年全球人均预期寿命73.3岁；世界银行口径略低（2022年约72岁），属统计口径差异。",
           "data": [
@@ -447,7 +974,9 @@
         },
         {
           "id": "kp-ai",
-          "anchor": { "mesh": "robot" },
+          "anchor": {
+            "mesh": "robot"
+          },
           "title": "大模型时间线",
           "body": "2022年11月30日 OpenAI 发布 ChatGPT；2023年3月14日发布 GPT-4。",
           "data": [
@@ -459,12 +988,23 @@
             {
               "label": "GPT-4",
               "value": "2023年3月14日",
-              "source": "The Verge / Reuters / BBC"
+              "source": "OpenAI – GPT-4 https://openai.com/index/gpt-4-research/"
             }
           ]
         }
       ],
-      "infoLayer": { "items": [] }
+      "infoLayer": {
+        "items": [
+          {
+            "id": "smartphone",
+            "label": "智能手机（2007）"
+          },
+          {
+            "id": "5g-llm",
+            "label": "5G（2019）与大模型"
+          }
+        ]
+      }
     }
   ]
 }

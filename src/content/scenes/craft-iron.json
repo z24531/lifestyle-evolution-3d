@@ -1,0 +1,54 @@
+{
+  "eraId": "craft-iron",
+  "ground": {
+    "top": "#9A8C6E",
+    "side": "#6A5A44",
+    "underside": "#332B22",
+    "scatter": { "type": "grass-tuft", "count": 10 }
+  },
+  "props": [
+    {
+      "type": "furnace",
+      "pos": [-4.8, 0, -7.6],
+      "rotY": 1.25,
+      "anchorId": "furnace"
+    },
+    { "type": "anvil", "pos": [-2.0, 0, -6.4], "rotY": 0.8, "scale": 1.05 },
+    { "type": "water-wheel", "pos": [-7.0, 0, -4.6], "rotY": 0.6 },
+    { "type": "lantern", "pos": [-2.4, 0, -3.4], "rotY": 0.3 },
+    { "type": "lantern", "pos": [-8.4, 0, -8.8], "rotY": 0.2, "scale": 0.95 },
+    { "type": "rock", "pos": [-9.8, 0, -7.4], "rotY": 0.8, "params": { "count": 2, "size": 0.7 } },
+
+    { "type": "market-stall", "pos": [-4.8, 0, 3.9], "rotY": 0.5 },
+    {
+      "type": "market-stall",
+      "pos": [-8.4, 0, 6.6],
+      "rotY": -2.5,
+      "scale": 0.95,
+      "params": { "awning": "#C9803F" }
+    },
+    { "type": "market-stall", "pos": [-3.0, 0, 8.6], "rotY": 2.5, "scale": 0.92 },
+    { "type": "tree-broadleaf", "pos": [-9.9, 0, 2.8], "rotY": 0.4, "scale": 0.9 },
+    { "type": "bush-berry", "pos": [-6.0, 0, 10.0], "rotY": 1.0 },
+
+    { "type": "city-wall", "pos": [7.6, 0, -7.4], "rotY": 0, "params": { "length": 4.0 } },
+    { "type": "city-wall", "pos": [3.9, 0, -10.2], "rotY": 1.5708, "params": { "length": 4.6 } },
+    { "type": "tower", "pos": [4.6, 0, -8.2], "rotY": 0.4 },
+    { "type": "temple", "pos": [5.4, 0, -4.0], "rotY": 0.1 },
+    { "type": "paper", "pos": [9.4, 0, -3.6], "rotY": -0.5, "anchorId": "paper" },
+
+    { "type": "sailing-ship", "pos": [6.4, 0, 6.2], "rotY": -0.6 },
+    { "type": "horse-cart", "pos": [3.0, 0, 9.0], "rotY": 1.5 },
+    { "type": "horse-cart", "pos": [9.2, 0, 3.2], "rotY": -1.4, "scale": 0.95 },
+    { "type": "lantern", "pos": [5.6, 0, 3.2], "rotY": -0.4 },
+    { "type": "lantern", "pos": [7.9, 0, 9.6], "rotY": -0.5 },
+    { "type": "bush-berry", "pos": [4.6, 0, 10.4], "rotY": 1.2 },
+    { "type": "rock", "pos": [6.4, 0, 10.2], "rotY": 0.2, "params": { "count": 2, "size": 0.8 } },
+    { "type": "rock", "pos": [2.6, 0, 4.2], "rotY": 1.1, "params": { "count": 1, "size": 0.7 } },
+    { "type": "rock", "pos": [3.6, 0, 4.0], "rotY": 0.3, "params": { "count": 2, "size": 0.9 } },
+
+    { "type": "cloud", "pos": [-4.8, 10.8, 3.2], "rotY": 0.4, "scale": 0.9 },
+    { "type": "cloud", "pos": [5.6, 12.0, -5.2], "rotY": 2.0, "scale": 1.0 },
+    { "type": "cloud", "pos": [2.4, 13.2, 6.8], "rotY": 1.2, "scale": 0.75 }
+  ]
+}

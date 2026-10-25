@@ -5,3 +5,6 @@ dist
 .vite
 
 .husky/_
+
+# 本地截图/验证产物
+artifacts/

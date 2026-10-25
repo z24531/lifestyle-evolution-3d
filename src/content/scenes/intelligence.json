@@ -1,0 +1,34 @@
+{
+  "eraId": "intelligence",
+  "ground": {
+    "top": "#5E6B62",
+    "side": "#3D4842",
+    "underside": "#242C28",
+    "scatter": { "type": "grass-tuft", "count": 10 }
+  },
+  "props": [
+    { "type": "solar-panel", "pos": [-9.0, 0, -7.4], "rotY": -2.2, "anchorId": "solar-panel" },
+    { "type": "solar-panel", "pos": [-8.9, 0, -4.6], "rotY": -2.2 },
+    { "type": "wind-turbine", "pos": [-4.9, 0, -3.1], "rotY": -2.2 },
+    { "type": "5g-tower", "pos": [-3.1, 0, -9.3], "rotY": 0.4 },
+    { "type": "data-center", "pos": [-5.6, 0, -7.8], "rotY": -2.08 },
+    { "type": "smart-greenhouse", "pos": [-7.0, 0, 4.0], "rotY": -2.1 },
+    { "type": "smart-greenhouse", "pos": [-3.8, 0, 8.6], "rotY": -2.5 },
+    { "type": "tree-conifer", "pos": [-8.8, 0, 7.8], "rotY": 0.5 },
+    { "type": "tree-broadleaf", "pos": [-10.3, 0, 3.6], "rotY": 0.6, "scale": 0.85 },
+    { "type": "bush-berry", "pos": [-3.0, 0, 4.6], "rotY": 1.4 },
+    { "type": "bush-berry", "pos": [-9.6, 0, 2.6], "rotY": 2.7 },
+    { "type": "bush-berry", "pos": [-4.8, 0, 6.1], "rotY": 0.8 },
+    { "type": "office-tower", "pos": [4.0, 0, -8.2], "rotY": -1.9, "anchorId": "city" },
+    { "type": "green-building", "pos": [5.6, 0, -2.6], "rotY": -2.05 },
+    { "type": "green-building", "pos": [9.6, 0, -3.0], "rotY": -2.6, "scale": 0.58 },
+    { "type": "smartphone", "pos": [2.4, 0, -4.8], "rotY": -2.0, "anchorId": "smartphone" },
+    { "type": "robot", "pos": [2.6, 0, -3.0], "rotY": -2.05, "scale": 1.1, "anchorId": "robot" },
+    { "type": "ev-car", "pos": [4.0, 0, 4.5], "rotY": 2.5, "scale": 0.9 },
+    { "type": "ev-car", "pos": [8.0, 0, 7.6], "rotY": 2.5, "scale": 0.9 },
+    { "type": "drone", "pos": [3.0, 0, 8.6], "rotY": 0.3 },
+    { "type": "drone", "pos": [9.6, 0, 3.4], "rotY": -0.7 },
+    { "type": "cloud", "pos": [-4.0, 10.0, 6.0], "rotY": 0.3, "scale": 0.85 },
+    { "type": "cloud", "pos": [6.0, 11.0, -4.0], "rotY": 1.1, "scale": 0.75 }
+  ]
+}
