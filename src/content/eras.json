@@ -41,8 +41,40 @@
           "id": "kp-fire",
           "anchor": { "mesh": "fire" },
           "title": "火的驯化",
-          "body": "学会用火让人类能吃熟食、御寒、驱兽，是早期最重要的能源突破。",
-          "data": [{ "label": "时间", "value": "约100–40万年前（有争议）", "source": "" }]
+          "body": "学会用火让人类能吃熟食、御寒、驱兽，是早期最重要的能源突破。最早确证用火可追溯至约100万年前（南非 Wonderwerk 洞穴），刻意生火的新证据约41.5万年前。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约100万–40万年前（有争议）",
+              "source": "Nature（Davis et al. 2025）http://www.natureasia.com/en/info/press-releases/detail/9185"
+            }
+          ]
+        },
+        {
+          "id": "kp-cooked",
+          "anchor": { "mesh": "fire" },
+          "title": "火烤熟食",
+          "body": "最早确证的火烤熟食约78万年前（以色列 Gesher Benot Ya'aqov 烤鱼齿釉质受热证据）；“生食→熟食”的起点整体仍有争议。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约78万年前（熟食）；约100万年前（受控用火）",
+              "source": "Nature Ecology & Evolution（Zohar et al. 2022）https://www.nature.com/articles/s41559-022-01910-z"
+            }
+          ]
+        },
+        {
+          "id": "kp-lifespan",
+          "anchor": { "mesh": "cave" },
+          "title": "人均寿命",
+          "body": "采集狩猎时代出生时预期寿命约30–35岁，但被极高婴儿死亡率拉低；活到成年者众数死亡年龄约68–78岁，并非“人人只活到30岁”。",
+          "data": [
+            {
+              "label": "出生时预期寿命",
+              "value": "约30–35岁（含婴儿死亡率口径）",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            }
+          ]
         }
       ],
       "infoLayer": {
@@ -60,7 +92,60 @@
       "themeColor": "#8FAE3B",
       "model": "/assets/models/era2/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-fertile-crescent",
+          "anchor": { "mesh": "field" },
+          "title": "新月沃地农业",
+          "body": "农业约1.2万年前起源于新月沃地，“约前9600年”落在该区间内；精确起点与“单一起源 vs 多中心”仍有分歧，建议用区间表述。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约公元前10000–9000年（有争议）",
+              "source": "Science / AAAS（Riehl et al. 2013）https://www.aaas.org/news/science-researchers-find-multiple-centers-farmings-start-fertile-crescent"
+            }
+          ]
+        },
+        {
+          "id": "kp-rice",
+          "anchor": { "mesh": "rice-paddy" },
+          "title": "水稻驯化",
+          "body": "长江下游上山文化水稻驯化始于约公元前8000–7000年（植硅体碳-14定年）；注意“栽培”与“完全驯化”的术语差异。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约公元前8000–7000年",
+              "source": "中科院地质与地球物理研究所（PNAS, Zuo et al. 2017）http://english.igg.cas.cn/NC/RN/201705/t20170531_177631.html"
+            }
+          ]
+        },
+        {
+          "id": "kp-wheel",
+          "anchor": { "mesh": "wheel" },
+          "title": "轮子",
+          "body": "轮子约公元前3500年出现于美索不达米亚/新月沃地；争议在起源地而非年代。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约公元前3500年",
+              "source": "University of Houston – The Engines of Our Ingenuity https://engines.egr.uh.edu/episode/1254"
+            }
+          ]
+        },
+        {
+          "id": "kp-cuneiform",
+          "anchor": { "mesh": "tablet" },
+          "title": "楔形文字",
+          "body": "原始楔形文字约公元前3400–3300年出现于乌鲁克；成熟楔形文字常记作约公元前3200年。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "约公元前3400–3200年（原始/成熟口径差异）",
+              "source": "Oxford ETCSL https://etcsl.orinst.ox.ac.uk/edition2/cuneiformwriting.php"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     },
     {
@@ -71,7 +156,44 @@
       "themeColor": "#A8662A",
       "model": "/assets/models/era3/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-bronze-iron",
+          "anchor": { "mesh": "furnace" },
+          "title": "青铜与铁器",
+          "body": "青铜时代约始于前3300年、铁器时代约始于前1200年，此为近东惯例年代，全球各文明差异很大。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "青铜约前3300年；铁器约前1200年（近东）",
+              "source": "Britannica – Bronze Age https://www.britannica.com/event/Bronze-Age"
+            }
+          ]
+        },
+        {
+          "id": "kp-paper-printing",
+          "anchor": { "mesh": "paper" },
+          "title": "造纸与印刷",
+          "body": "造纸术约105年（蔡伦进献改良纸，更早纸约前2世纪已有出土，归属有争议）；雕版印刷约7–8世纪，868年《金刚经》为最早有纪年印刷品；活字印刷毕昇约1040年代。",
+          "data": [
+            {
+              "label": "造纸",
+              "value": "公元105年（归属有争议）",
+              "source": "IDP（大英图书馆）http://idp.nlc.cn/education/silk_road/pages/dun262b.html"
+            },
+            {
+              "label": "雕版印刷",
+              "value": "约7–8世纪（868年《金刚经》）",
+              "source": "IDP（大英图书馆）http://idp.nlc.cn/education/silk_road/pages/dun262b.html"
+            },
+            {
+              "label": "活字印刷",
+              "value": "约1040年代（毕昇）",
+              "source": "China.org.cn http://www.china.org.cn/top10/2011-03/25/content_22054243_9.htm"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     },
     {
@@ -82,7 +204,65 @@
       "themeColor": "#6B6B6B",
       "model": "/assets/models/era4/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-watt",
+          "anchor": { "mesh": "steam-engine" },
+          "title": "瓦特蒸汽机",
+          "body": "瓦特1769年获分离式冷凝器蒸汽机改良专利；分离冷凝设想约1765年形成，实用化约1776年量产。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "1769年（专利）",
+              "source": "Deutschlandfunk https://www.deutschlandfunk.de/vor-250-jahren-als-james-watt-das-patent-auf-seine-100.html"
+            }
+          ]
+        },
+        {
+          "id": "kp-railway",
+          "anchor": { "mesh": "locomotive" },
+          "title": "铁路与汽船",
+          "body": "斯托克顿—达灵顿铁路1825年开通（首条蒸汽牵引公共铁路）；富尔顿“克莱蒙特号”1807年首航（首条商业化成功客运汽船）。",
+          "data": [
+            {
+              "label": "铁路",
+              "value": "1825年",
+              "source": "Historic England https://heritagecalling.com/2025/09/18/the-history-of-stockton-and-darlington-railway/"
+            },
+            {
+              "label": "汽船",
+              "value": "1807年",
+              "source": "NY Empire State Plaza https://empirestateplaza.ny.gov/first-commercially-successful-passenger-steamboat"
+            }
+          ]
+        },
+        {
+          "id": "kp-telegraph",
+          "anchor": { "mesh": "telegraph" },
+          "title": "电报",
+          "body": "摩尔斯1837年制成并演示电磁电报；首次公开演示1838年，首条商用线路1844年。",
+          "data": [
+            {
+              "label": "时间",
+              "value": "1837年",
+              "source": "ETHW（IEEE）https://ethw.org/Telegraph"
+            }
+          ]
+        },
+        {
+          "id": "kp-lifespan",
+          "anchor": { "mesh": "city" },
+          "title": "工业时代人均寿命",
+          "body": "工业化初期英格兰与威尔士出生时预期寿命约30–40岁，被婴儿死亡率压低；成年人剩余预期寿命更高。",
+          "data": [
+            {
+              "label": "出生时预期寿命",
+              "value": "约30–40岁",
+              "source": "Our World in Data https://ourworldindata.org/its-not-just-about-child-mortality-life-expectancy-improved-at-all-ages"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     },
     {
@@ -93,7 +273,57 @@
       "themeColor": "#F2B705",
       "model": "/assets/models/era5/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-lightbulb",
+          "anchor": { "mesh": "lightbulb" },
+          "title": "电灯与电话",
+          "body": "爱迪生实用白炽灯1879年；贝尔电话专利1876年获批。发明归属存在争议（电灯 vs Swan/电弧灯；电话贝尔 vs Gray/Meucci）。",
+          "data": [
+            {
+              "label": "电灯",
+              "value": "1879年",
+              "source": "U.S. National Archives – DocsTeach https://docsteach.org/document/drawing-for-improvements-in-telegraphy/"
+            },
+            {
+              "label": "电话",
+              "value": "1876年",
+              "source": "U.S. National Archives – DocsTeach https://docsteach.org/document/drawing-for-improvements-in-telegraphy/"
+            }
+          ]
+        },
+        {
+          "id": "kp-car-plane",
+          "anchor": { "mesh": "car" },
+          "title": "汽车与飞机",
+          "body": "本茨汽车1886年（首次试驶1885年）；莱特兄弟首次动力飞行1903年。",
+          "data": [
+            {
+              "label": "汽车",
+              "value": "1886年",
+              "source": "Deutsches Museum https://www.deutsches-museum.de/museum/aktuell/eine-ikone-der-automobilgeschichte-wird-140"
+            },
+            {
+              "label": "飞机",
+              "value": "1903年",
+              "source": "Smithsonian National Air and Space Museum https://airandspace.si.edu/stories/editorial/explore-wright-flyer"
+            }
+          ]
+        },
+        {
+          "id": "kp-lifespan",
+          "anchor": { "mesh": "skyline" },
+          "title": "20世纪人均寿命",
+          "body": "全球出生时预期寿命从1900年约31–32岁升至2000年约66–67岁，大致翻倍。",
+          "data": [
+            {
+              "label": "全球预期寿命",
+              "value": "约31–32岁（1900）→ 约66–67岁（2000）",
+              "source": "World Bank WDI – Life expectancy https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     },
     {
@@ -104,7 +334,62 @@
       "themeColor": "#2E86DE",
       "model": "/assets/models/era6/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-transistor",
+          "anchor": { "mesh": "chip" },
+          "title": "晶体管与集成电路",
+          "body": "晶体管1947年（贝尔实验室）；集成电路1958年（基尔比）。诺伊斯同期独立发明，与基尔比并称共同发明人。",
+          "data": [
+            {
+              "label": "晶体管",
+              "value": "1947年",
+              "source": "APS Physics Magazine https://physics.aps.org/story/v23/st16"
+            },
+            {
+              "label": "集成电路",
+              "value": "1958年",
+              "source": "National MagLab https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/pioneers/jack-kilby/"
+            }
+          ]
+        },
+        {
+          "id": "kp-internet",
+          "anchor": { "mesh": "computer" },
+          "title": "互联网与万维网",
+          "body": "ARPANET 1969年首次传输；手机1973年首次手持移动电话通话；万维网1989年提出、1991年公开发布。",
+          "data": [
+            {
+              "label": "ARPANET",
+              "value": "1969年",
+              "source": "CERN – Web History https://web30.web.cern.ch/web-history.html"
+            },
+            {
+              "label": "手机",
+              "value": "1973年",
+              "source": "Guinness World Records https://www.guinnessworldrecords.com/"
+            },
+            {
+              "label": "万维网",
+              "value": "1991年（公开发布）",
+              "source": "CERN – Web History https://web30.web.cern.ch/web-history.html"
+            }
+          ]
+        },
+        {
+          "id": "kp-lifespan",
+          "anchor": { "mesh": "server" },
+          "title": "信息时代人均寿命",
+          "body": "全球人均预期寿命从1950年约46岁升至2000年约68岁；65–75岁是同期高收入国家水平，非全球平均。",
+          "data": [
+            {
+              "label": "全球预期寿命",
+              "value": "约46岁（1950）→ 约68岁（2000）",
+              "source": "World Bank WDI – Life expectancy https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     },
     {
@@ -115,7 +400,70 @@
       "themeColor": "#7C4DFF",
       "model": "/assets/models/era7/scene.glb",
       "axes": [],
-      "knowledgePoints": [],
+      "knowledgePoints": [
+        {
+          "id": "kp-smartphone",
+          "anchor": { "mesh": "smartphone" },
+          "title": "智能手机与5G",
+          "body": "iPhone 2007年发布；5G 2019年商用（韩国全球首个）。注意“智能手机”概念早于iPhone（IBM Simon 1993、爱立信R380 2000）。",
+          "data": [
+            {
+              "label": "iPhone",
+              "value": "2007年（智能手机概念更早）",
+              "source": "Apple Newsroom https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+            },
+            {
+              "label": "5G商用",
+              "value": "2019年",
+              "source": "Korea.net https://www.korea.net/NewsFocus/policies/view?articleId=169939"
+            }
+          ]
+        },
+        {
+          "id": "kp-solar",
+          "anchor": { "mesh": "solar-panel" },
+          "title": "光伏成本",
+          "body": "全球光伏LCOE从2010年约0.46美元/kWh降至2023年0.044美元/kWh（约降90%），2024年进一步降至约0.036美元/kWh。",
+          "data": [
+            {
+              "label": "LCOE",
+              "value": "约0.46→0.044美元/kWh（2010→2023）",
+              "source": "IRENA – Renewable Power Generation Costs 2023 https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023"
+            }
+          ]
+        },
+        {
+          "id": "kp-lifespan",
+          "anchor": { "mesh": "city" },
+          "title": "全球人均寿命",
+          "body": "WHO 2023年全球人均预期寿命73.3岁；世界银行口径略低（2022年约72岁），属统计口径差异。",
+          "data": [
+            {
+              "label": "全球预期寿命",
+              "value": "约73岁（WHO 2023：73.3岁）",
+              "source": "WHO Global Health Estimates https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape"
+            }
+          ]
+        },
+        {
+          "id": "kp-ai",
+          "anchor": { "mesh": "robot" },
+          "title": "大模型时间线",
+          "body": "2022年11月30日 OpenAI 发布 ChatGPT；2023年3月14日发布 GPT-4。",
+          "data": [
+            {
+              "label": "ChatGPT",
+              "value": "2022年11月30日",
+              "source": "The Centre for Computing History https://www.computinghistory.org.uk/det/71180/OpenAI-launches-ChatGPT"
+            },
+            {
+              "label": "GPT-4",
+              "value": "2023年3月14日",
+              "source": "The Verge / Reuters / BBC"
+            }
+          ]
+        }
+      ],
       "infoLayer": { "items": [] }
     }
   ]
