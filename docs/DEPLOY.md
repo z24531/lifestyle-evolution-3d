@@ -10,6 +10,18 @@
 
 ---
 
+## 0.0 ⚠️ 私有仓库限制(先看这条)
+
+当前仓库是 **Private**。GitHub 只在 **公开仓库** 或 **付费套餐(GitHub Pro/Team/Enterprise)** 下提供 Pages。
+如果打开 **Settings → Pages** 看不到可选的 Source,说明受此限制,二选一:
+
+- **方案 A(推荐,免费)**:仓库 Settings → General → Danger Zone → **Change visibility → Public**,然后回到 Settings → Pages,Source 选 **GitHub Actions**;
+- **方案 B(保持私有)**:用 Netlify / Vercel 免费额度托管(见 §2),它们支持私有仓库自动构建,但需要你把仓库授权给对应平台。
+
+> 已用本地静态服务器模拟 Pages 项目页子路径(`/lifestyle-evolution-3d/`)验证:构建产物在子路径下 0 资源失败、0 控制台错误,页面与交互正常,部署后不会白屏。
+
+---
+
 ## 0. 前置：vite base 必须是相对路径（重要）
 
 GitHub Pages 项目页的路径是 `https://<user>.github.io/<repo>/`，资源必须按相对路径解析。
