@@ -37,18 +37,18 @@ interface ErasDoc {
 }
 
 const EXPECTED_ERAS = 7;
-const EXPECTED_KNOWLEDGE_POINTS = 23;
+const EXPECTED_KNOWLEDGE_POINTS = 30;
 
 /** 契约 §6：各时代必需锚点（知识点的 anchor.mesh 必须覆盖它们）。 */
 const REQUIRED_ANCHORS: Record<string, string[]> = {
   // 时代 1 的 kp-cooked 改挂「篝火旁烤肉架」roast
-  'hunter-gatherer': ['fire', 'cave', 'roast'],
-  agriculture: ['field', 'rice-paddy', 'wheel', 'tablet'],
-  'craft-iron': ['furnace', 'paper'],
-  steam: ['steam-engine', 'locomotive', 'telegraph', 'city'],
-  electric: ['lightbulb', 'car', 'skyline'],
-  information: ['chip', 'computer', 'server'],
-  intelligence: ['smartphone', 'solar-panel', 'city', 'robot'],
+  'hunter-gatherer': ['fire', 'cave', 'roast', 'hunter'],
+  agriculture: ['field', 'rice-paddy', 'wheel', 'tablet', 'granary'],
+  'craft-iron': ['furnace', 'paper', 'market-stall'],
+  steam: ['steam-engine', 'locomotive', 'telegraph', 'city', 'factory'],
+  electric: ['lightbulb', 'car', 'skyline', 'radiator'],
+  information: ['chip', 'computer', 'server', 'tv'],
+  intelligence: ['smartphone', 'solar-panel', 'city', 'robot', 'ev-car'],
 };
 
 function readErasDoc(): ErasDoc {

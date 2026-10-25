@@ -6,7 +6,7 @@
     "underside": "#2A241F"
   },
   "props": [
-    { "type": "factory", "pos": [-8.6, 0, -4.4], "rotY": 0.22 },
+    { "type": "factory", "anchorId": "factory", "pos": [-8.6, 0, -4.4], "rotY": 0.22 },
     { "type": "steam-engine", "pos": [-3.4, 0, -5.0], "rotY": 0.6, "anchorId": "steam-engine" },
     { "type": "chimney", "pos": [-6.4, 0, -8.8], "rotY": 0.3, "params": { "h": 1 } },
     { "type": "coal-pile", "pos": [-2.4, 0, -8.8], "rotY": -0.4, "scale": 1.05 },

@@ -63,8 +63,9 @@ function bootstrap(): void {
   // ---------- UI ----------
   const intro = createIntroCard(uiRoot, {
     title: '人类生活方式的变迁',
-    subtitle: '从茹毛饮血到智能时代 · 一场沿时间之柱向下的旅程',
-    hint: '向下滚动开始探索',
+    subtitle: '从茹毛饮血到城市与 AI · 一场沿时间之柱向下的旅程',
+    hint: '向下滚动，开始下降',
+    meta: '约 100 万年前 → 今天 · 7 个时代 · 30 个知识点',
   });
   const infoBar = createInfoBar(uiRoot);
   const hotspots = createHotspotLayer(uiRoot, openKnowledgePoint);
@@ -106,6 +107,7 @@ function bootstrap(): void {
       total: eras.length,
       title: era.title,
       subtitle: era.subtitle,
+      intro: era.intro,
       themeColor: era.themeColor,
     };
     if (infoBarVisible) infoBar.setEra(currentEraInfo);

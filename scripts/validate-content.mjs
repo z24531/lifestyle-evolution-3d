@@ -29,7 +29,7 @@ const SCENES_DIR = path.join(CONTENT_DIR, 'scenes');
 const PROPS_DIR = path.join(ROOT, 'src', 'scene', 'props');
 
 const EXPECTED_ERAS = 7;
-const EXPECTED_KNOWLEDGE_POINTS = 23; // 契约 §2：内容总计 23 条知识点
+const EXPECTED_KNOWLEDGE_POINTS = 30; // 契约 §2：内容总计 30 条知识点(v2 文案)
 const POS_LIMIT = 12; // 契约 §3：建议 |x|,|z| ≤ 10.5，脚本在 >12 时警告
 const PROPS_HARD_MIN = 10;
 const PROPS_HARD_MAX = 40;
@@ -40,13 +40,13 @@ const MAX_SAME_PROP = 6;
 /** 契约 §6 各时代必需锚点（必须被场景 props[].anchorId 覆盖）。 */
 const REQUIRED_ANCHORS = {
   // 时代 1 的 kp-cooked 改挂「篝火旁烤肉架」roast，避免与 kp-fire 的热点重叠
-  'hunter-gatherer': ['fire', 'cave', 'roast'],
-  agriculture: ['field', 'rice-paddy', 'wheel', 'tablet'],
-  'craft-iron': ['furnace', 'paper'],
-  steam: ['steam-engine', 'locomotive', 'telegraph', 'city'],
-  electric: ['lightbulb', 'car', 'skyline'],
-  information: ['chip', 'computer', 'server'],
-  intelligence: ['smartphone', 'solar-panel', 'city', 'robot'],
+  'hunter-gatherer': ['fire', 'cave', 'roast', 'hunter'],
+  agriculture: ['field', 'rice-paddy', 'wheel', 'tablet', 'granary'],
+  'craft-iron': ['furnace', 'paper', 'market-stall'],
+  steam: ['steam-engine', 'locomotive', 'telegraph', 'city', 'factory'],
+  electric: ['lightbulb', 'car', 'skyline', 'radiator'],
+  information: ['chip', 'computer', 'server', 'tv'],
+  intelligence: ['smartphone', 'solar-panel', 'city', 'robot', 'ev-car'],
 };
 
 /** 契约 §3：四象限与维度对应关系（用于场景完整度的软性检查）。 */

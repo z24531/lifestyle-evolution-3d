@@ -1259,3 +1259,31 @@
     transition-duration: 0.001ms !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   文案 v2:序章 meta 行 + 时代导语
+   -------------------------------------------------------------------------- */
+
+.ui-intro__meta {
+  margin: 18px 0 0;
+  font-size: clamp(12px, 0.95vw, 14px);
+  letter-spacing: 0.06em;
+  color: rgba(232, 236, 242, 0.5);
+  font-variant-numeric: tabular-nums;
+}
+
+.ui-intro__meta[hidden] {
+  display: none;
+}
+
+.ui-info__intro {
+  margin: 8px 0 0;
+  max-width: 34ch;
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(232, 236, 242, 0.58);
+}
+
+.ui-info__intro[hidden] {
+  display: none;
+}

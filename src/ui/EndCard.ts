@@ -17,7 +17,11 @@ export function createEndCard(root: HTMLElement, onReplay: () => void): EndCard 
   accent.setAttribute('aria-hidden', 'true');
   const eyebrow = el('p', 'ui-end__eyebrow', '尾声');
   const title = el('h2', 'ui-end__title', '生活方式仍在变迁');
-  const copy = el('p', 'ui-end__copy', '从篝火到智能终端,七个时代只是开始。');
+  const copy = el(
+    'p',
+    'ui-end__copy',
+    '从洞穴篝火到城市与 AI,七个时代里,人类一直在重写自己的日常。下一次改变,正在发生。',
+  );
   const replay = el('button', 'ui-end__replay');
   replay.type = 'button';
   const replayIcon = el('span', 'ui-end__replay-icon', '↺');

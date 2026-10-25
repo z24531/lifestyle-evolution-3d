@@ -5,7 +5,7 @@
       "id": "hunter-gatherer",
       "index": 0,
       "title": "采集狩猎",
-      "subtitle": "居无定所，直接取食于自然",
+      "subtitle": "居无定所，直接向自然取食",
       "themeColor": "#E8793A",
       "model": "/assets/models/era1/scene.glb",
       "axes": [
@@ -71,11 +71,16 @@
             "mesh": "fire"
           },
           "title": "火的驯化",
-          "body": "学会用火让人类能吃熟食、御寒、驱兽，是早期最重要的能源突破。最早确证用火可追溯至约100万年前（南非 Wonderwerk 洞穴），刻意生火的新证据约41.5万年前。",
+          "body": "把火留住、再自己生火，是早期人类最重要的能源突破。考古证据显示，人类约在 100 万年前开始使用火，南非 Wonderwerk 洞穴的灰烬与烧骨是代表；到约 40 万年前，人类已能反复、主动地生火。火让人类吃上熟食、在寒冷地区定居，夜里有了光与社交，也把野兽挡在营地之外。",
           "data": [
             {
-              "label": "时间",
-              "value": "约100万–40万年前（有争议）",
+              "label": "开始用火",
+              "value": "约 100 万年前",
+              "source": "Nature（Davis et al. 2025）http://www.natureasia.com/en/info/press-releases/detail/9185"
+            },
+            {
+              "label": "主动生火",
+              "value": "约 40 万年前",
               "source": "Nature（Davis et al. 2025）http://www.natureasia.com/en/info/press-releases/detail/9185"
             }
           ]
@@ -86,12 +91,27 @@
             "mesh": "roast"
           },
           "title": "火烤熟食",
-          "body": "最早确证的火烤熟食约78万年前（以色列 Gesher Benot Ya'aqov 烤鱼齿釉质受热证据）；“生食→熟食”的起点整体仍有争议。",
+          "body": "熟食让饮食效率大幅提高：加热后淀粉和蛋白质更易消化，寄生虫与细菌被杀灭，咀嚼和消化时间缩短。以色列 Gesher Benot Ya'aqov 遗址约 78 万年前的烤鱼齿釉质受热证据，是目前已知最早的熟食直接证据。有研究认为，熟食与人类大脑增大、牙齿变小的演化方向密切相关。",
           "data": [
             {
-              "label": "时间",
-              "value": "约78万年前（熟食）；约100万年前（受控用火）",
+              "label": "最早熟食证据",
+              "value": "约 78 万年前",
               "source": "Nature Ecology & Evolution（Zohar et al. 2022）https://www.nature.com/articles/s41559-022-01910-z"
+            }
+          ]
+        },
+        {
+          "id": "kp-language",
+          "anchor": {
+            "mesh": "hunter"
+          },
+          "title": "语言与协作",
+          "body": "语言让经验第一次能离开个人记忆:怎么打制石器、哪种果实有毒、猎物什么时候迁徙，都能讲给别人听，也能讲给下一代。合作围猎大型动物需要计划、分工和信号，这些能力让人类在体能并不占优的年代，成为最擅长协作的猎手。洞穴壁画与随葬品还说明，他们早已用符号表达想象与信仰。",
+          "data": [
+            {
+              "label": "早期洞穴壁画",
+              "value": "约 4 万年前",
+              "source": "UNESCO – Lascaux https://whc.unesco.org/en/list/85"
             }
           ]
         },
@@ -101,11 +121,16 @@
             "mesh": "cave"
           },
           "title": "人均寿命",
-          "body": "采集狩猎时代出生时预期寿命约30–35岁，但被极高婴儿死亡率拉低；活到成年者众数死亡年龄约68–78岁，并非“人人只活到30岁”。",
+          "body": "「采集狩猎者只活到 30 岁」是一个被平均出来的误解。出生时预期寿命确实只有约 30–35 岁，但那是因为大量婴儿活不过五岁；能活过童年的人，平均还能再活约 40 年，不少人活到 60 岁以上。真正的差别不在「老得多快」，而在「孩子能不能活下来」。",
           "data": [
             {
               "label": "出生时预期寿命",
-              "value": "约30–35岁（含婴儿死亡率口径）",
+              "value": "约 30–35 岁",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            },
+            {
+              "label": "活到成年后的平均余寿",
+              "value": "约 40 年",
               "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
             }
           ]
@@ -120,15 +145,20 @@
           {
             "id": "oral",
             "label": "口耳相传"
+          },
+          {
+            "id": "knots",
+            "label": "结绳记事"
           }
         ]
-      }
+      },
+      "intro": "用火、石器和语言，人类第一次把自然变成可以理解、也可以合作利用的世界。"
     },
     {
       "id": "agriculture",
       "index": 1,
       "title": "农耕",
-      "subtitle": "定居、驯化动植物、出现剩余与储藏",
+      "subtitle": "定居、驯化动植物，第一次有了「剩余」",
       "themeColor": "#8FAE3B",
       "model": "/assets/models/era2/scene.glb",
       "axes": [
@@ -208,11 +238,11 @@
             "mesh": "field"
           },
           "title": "新月沃地农业",
-          "body": "农业约1.2万年前起源于新月沃地，“约前9600年”落在该区间内；精确起点与“单一起源 vs 多中心”仍有分歧，建议用区间表述。",
+          "body": "末次冰期结束后，气候变暖，新月沃地的人开始定居、播种。约公元前 9500 年，小麦、大麦、豌豆在今天的以色列、叙利亚、土耳其东南部一带被驯化，耶利哥等最早的一批村落随之出现。农业不是某个早晨被「发明」的，而是几千年里人与作物互相适应的过程——人类第一次能主动储存未来。",
           "data": [
             {
               "label": "时间",
-              "value": "约公元前10000–9000年（有争议）",
+              "value": "约公元前 9500 年",
               "source": "Science / AAAS（Riehl et al. 2013）https://www.aaas.org/news/science-researchers-find-multiple-centers-farmings-start-fertile-crescent"
             }
           ]
@@ -223,12 +253,27 @@
             "mesh": "rice-paddy"
           },
           "title": "水稻驯化",
-          "body": "长江下游上山文化水稻驯化始于约公元前8000–7000年（植硅体碳-14定年）；注意“栽培”与“完全驯化”的术语差异。",
+          "body": "长江下游是水稻驯化的中心之一。上山文化遗址的植硅体与碳-14 测年显示，约公元前 8000–7000 年，当地先民已开始栽培水稻。水稻需要水、田埂和集体协作，它的驯化把「水利」与「村落」写进了东亚农业的底色，也养活了此后数千年不断增长的人口。",
           "data": [
             {
               "label": "时间",
-              "value": "约公元前8000–7000年",
+              "value": "约公元前 8000–7000 年",
               "source": "中科院地质与地球物理研究所（PNAS, Zuo et al. 2017）http://english.igg.cas.cn/NC/RN/201705/t20170531_177631.html"
+            }
+          ]
+        },
+        {
+          "id": "kp-surplus",
+          "anchor": {
+            "mesh": "granary"
+          },
+          "title": "剩余与储藏",
+          "body": "有了粮仓，收成第一次能跨过冬天:一季的余粮可以留到下一季，也可以拿去交换。剩余的粮食养活了不种地的人——工匠、祭司、士兵和官吏，社会因此分层，城市与文明有了地基。储藏也意味着风险:一场霉变、一次劫掠，就能让整年的努力归零。为守住粮食，人类又发明了围墙、账目和守卫。",
+          "data": [
+            {
+              "label": "最早的粮仓",
+              "value": "约公元前 9500 年",
+              "source": "Science / AAAS（Riehl et al. 2013）https://www.aaas.org/news/science-researchers-find-multiple-centers-farmings-start-fertile-crescent"
             }
           ]
         },
@@ -238,11 +283,11 @@
             "mesh": "wheel"
           },
           "title": "轮子",
-          "body": "轮子约公元前3500年出现于美索不达米亚/新月沃地；争议在起源地而非年代。",
+          "body": "轮子从来不是单独出现的:它需要轮、轴、轴承一起配合。约公元前 3500 年，美索不达米亚出现了最早的轮式车辆;制陶用的陶轮更早。轮子把滑动摩擦变成滚动，运输效率成倍提升，也让车、战车和后来的机械都成为可能。它还有一个副作用:轮子需要平坦的路，而路需要国家来修。",
           "data": [
             {
               "label": "时间",
-              "value": "约公元前3500年",
+              "value": "约公元前 3500 年",
               "source": "University of Houston – The Engines of Our Ingenuity https://engines.egr.uh.edu/episode/1254"
             }
           ]
@@ -253,11 +298,16 @@
             "mesh": "tablet"
           },
           "title": "楔形文字",
-          "body": "原始楔形文字约公元前3400–3300年出现于乌鲁克；成熟楔形文字常记作约公元前3200年。",
+          "body": "约公元前 3300 年，乌鲁克城的书吏用芦苇杆在泥板上压出符号，记录粮食、牲畜和配给——这是最早的楔形文字，起初是「记账工具」。到约公元前 3200 年，符号开始能完整表示语言，文字才真正会讲故事。从此，法律、账目和知识可以越过个人记忆，传给陌生人，也传给后代。",
           "data": [
             {
-              "label": "时间",
-              "value": "约公元前3400–3200年（原始/成熟口径差异）",
+              "label": "原始文字",
+              "value": "约公元前 3300 年",
+              "source": "Oxford ETCSL https://etcsl.orinst.ox.ac.uk/edition2/cuneiformwriting.php"
+            },
+            {
+              "label": "成熟文字",
+              "value": "约公元前 3200 年",
               "source": "Oxford ETCSL https://etcsl.orinst.ox.ac.uk/edition2/cuneiformwriting.php"
             }
           ]
@@ -266,15 +316,20 @@
       "infoLayer": {
         "items": [
           {
-            "id": "cuneiform",
-            "label": "楔形文字（约前 3400 年）"
+            "id": "proto-cuneiform",
+            "label": "原始楔形文字"
           },
           {
-            "id": "clay-token",
+            "id": "pottery-marks",
             "label": "陶符与岩画"
+          },
+          {
+            "id": "clay-tablets",
+            "label": "泥板账目"
           }
         ]
-      }
+      },
+      "intro": "种子、家畜与粮仓让人口增长、村落出现，时间开始按季节计算。"
     },
     {
       "id": "craft-iron",
@@ -360,12 +415,32 @@
             "mesh": "furnace"
           },
           "title": "青铜与铁器",
-          "body": "青铜时代约始于前3300年、铁器时代约始于前1200年，此为近东惯例年代，全球各文明差异很大。",
+          "body": "青铜约在公元前 3300 年出现于近东，人类第一次用人工合金做出比石头更韧、更亮的工具和武器。约公元前 1200 年，冶铁技术普及：铁矿石广泛易得，高温冶炼出的铁器更硬、更便宜，能大规模装备农具与军队。金属就这样改写了农业、战争和国家的规模。",
           "data": [
             {
-              "label": "时间",
-              "value": "青铜约前3300年；铁器约前1200年（近东）",
+              "label": "青铜",
+              "value": "约公元前 3300 年",
               "source": "Britannica – Bronze Age https://www.britannica.com/event/Bronze-Age"
+            },
+            {
+              "label": "铁器普及",
+              "value": "约公元前 1200 年",
+              "source": "Britannica – Bronze Age https://www.britannica.com/event/Bronze-Age"
+            }
+          ]
+        },
+        {
+          "id": "kp-money",
+          "anchor": {
+            "mesh": "market-stall"
+          },
+          "title": "货币与市场",
+          "body": "分工越细，以物易物越麻烦:铁匠不缺麦子，农夫却需要锄头，双方很难刚好「你有的正是我要的」。约公元前 7 世纪，小亚细亚的吕底亚开始铸造金银币，钱成了通用的中间物——先换钱，再用钱换任何东西。市场让陌生人之间也能放心交易，城市因此越长越大，借贷、利息和价格也随之出现。",
+          "data": [
+            {
+              "label": "最早铸币",
+              "value": "约公元前 7 世纪（吕底亚）",
+              "source": "Britannica – coin https://www.britannica.com/topic/coin"
             }
           ]
         },
@@ -375,21 +450,21 @@
             "mesh": "paper"
           },
           "title": "造纸与印刷",
-          "body": "造纸术约105年（蔡伦进献改良纸，更早纸约前2世纪已有出土，归属有争议）；雕版印刷约7–8世纪，868年《金刚经》为最早有纪年印刷品；活字印刷毕昇约1040年代。",
+          "body": "公元 105 年，蔡伦改进造纸术，用树皮、麻头、破布和渔网造出便宜好写的纸。7–8 世纪，雕版印刷出现，868 年印制的《金刚经》是现存最早有纪年的印刷品；1040 年代，毕昇发明泥活字。纸和印刷把知识的复制成本降到前所未有的低，书籍从少数人的奢侈品，变成可以流传的东西。",
           "data": [
             {
               "label": "造纸",
-              "value": "公元105年（归属有争议）",
+              "value": "公元 105 年",
               "source": "IDP（大英图书馆）http://idp.nlc.cn/education/silk_road/pages/dun262b.html"
             },
             {
               "label": "雕版印刷",
-              "value": "约7–8世纪（868年《金刚经》）",
+              "value": "7–8 世纪（868 年《金刚经》）",
               "source": "IDP（大英图书馆）http://idp.nlc.cn/education/silk_road/pages/dun262b.html"
             },
             {
               "label": "活字印刷",
-              "value": "约1040年代（毕昇）",
+              "value": "1040 年代（毕昇）",
               "source": "China.org.cn http://www.china.org.cn/top10/2011-03/25/content_22054243_9.htm"
             }
           ]
@@ -398,21 +473,26 @@
       "infoLayer": {
         "items": [
           {
-            "id": "oracle-bone",
+            "id": "scripts",
             "label": "甲骨文 / 纸莎草 / 竹简"
           },
           {
-            "id": "book-wood",
-            "label": "抄写书籍与烽火驿传"
+            "id": "manuscripts",
+            "label": "抄写书籍"
+          },
+          {
+            "id": "beacons-post",
+            "label": "烽火与驿传"
           }
         ]
-      }
+      },
+      "intro": "冶炼让工具更锋利，城市让陌生人聚在一起，交换、文字与货币随之诞生。"
     },
     {
       "id": "steam",
       "index": 3,
       "title": "蒸汽工业",
-      "subtitle": "机器替代人力，工厂与城市化",
+      "subtitle": "机器替代人力，工厂与城市崛起",
       "themeColor": "#6B6B6B",
       "model": "/assets/models/era4/scene.glb",
       "axes": [
@@ -484,11 +564,16 @@
             "mesh": "steam-engine"
           },
           "title": "瓦特蒸汽机",
-          "body": "瓦特1769年获分离式冷凝器蒸汽机改良专利；分离冷凝设想约1765年形成，实用化约1776年量产。",
+          "body": "1769 年，瓦特为带分离冷凝器的蒸汽机申请专利。此前的纽科门蒸汽机只在矿井抽水，效率极低，烧掉大量煤炭;瓦特的改良让它走出矿井，开始驱动纺织机、鼓风机和机床。1776 年商业化生产后，工厂第一次可以不靠河流、不靠人力，把煤炭变成持续的动力，工业革命由此加速。",
           "data": [
             {
-              "label": "时间",
-              "value": "1769年（专利）",
+              "label": "专利",
+              "value": "1769 年",
+              "source": "Deutschlandfunk https://www.deutschlandfunk.de/vor-250-jahren-als-james-watt-das-patent-auf-seine-100.html"
+            },
+            {
+              "label": "商业化",
+              "value": "1776 年",
               "source": "Deutschlandfunk https://www.deutschlandfunk.de/vor-250-jahren-als-james-watt-das-patent-auf-seine-100.html"
             }
           ]
@@ -499,17 +584,32 @@
             "mesh": "locomotive"
           },
           "title": "铁路与汽船",
-          "body": "斯托克顿—达灵顿铁路1825年开通（首条蒸汽牵引公共铁路）；富尔顿“克莱蒙特号”1807年首航（首条商业化成功客运汽船）。",
+          "body": "1807 年，富尔顿的「克莱蒙特号」完成首次商业客运航行;1825 年，斯托克顿—达灵顿铁路开通，蒸汽机车首次牵引公共列车。铁路把陆上运输速度从马车的每小时十几公里提高到四十公里以上，货物和人的流动第一次有了「时刻表」。标准时间、通勤与旅游，都跟着铁轨一起出现。",
           "data": [
             {
               "label": "铁路",
-              "value": "1825年",
+              "value": "1825 年",
               "source": "Historic England https://heritagecalling.com/2025/09/18/the-history-of-stockton-and-darlington-railway/"
             },
             {
               "label": "汽船",
-              "value": "1807年",
+              "value": "1807 年",
               "source": "NY Empire State Plaza https://empirestateplaza.ny.gov/first-commercially-successful-passenger-steamboat"
+            }
+          ]
+        },
+        {
+          "id": "kp-urban",
+          "anchor": {
+            "mesh": "factory"
+          },
+          "title": "城市化与公共卫生",
+          "body": "1800 年，英国只有约 20% 的人住在城市;到 1900 年，这个数字接近 75%。工厂把人口吸进城市，也带来了拥挤、污水和霍乱。正是这些代价，逼出了下水道、清洁供水和现代公共卫生制度——今天城市生活的基本设施，大多源自那场危机。",
+          "data": [
+            {
+              "label": "英国城市人口占比",
+              "value": "约 20%（1800）→ 约 75%（1900）",
+              "source": "Our World in Data – Urbanization https://ourworldindata.org/urbanization"
             }
           ]
         },
@@ -519,11 +619,16 @@
             "mesh": "telegraph"
           },
           "title": "电报",
-          "body": "摩尔斯1837年制成并演示电磁电报；首次公开演示1838年，首条商用线路1844年。",
+          "body": "1837 年，摩尔斯展示了他的电磁电报机;1844 年，华盛顿到巴尔的摩的线路开通，第一条报文是「上帝创造了何等奇迹」。电报让信息第一次脱离马匹和船只独立旅行，几秒钟跨越数百公里。报纸开始用「昨日电讯」报道远方，市场行情同步跳动，世界第一次有了统一的时间感。",
           "data": [
             {
-              "label": "时间",
-              "value": "1837年",
+              "label": "试验成功",
+              "value": "1837 年",
+              "source": "ETHW（IEEE）https://ethw.org/Telegraph"
+            },
+            {
+              "label": "首条商用线路",
+              "value": "1844 年",
               "source": "ETHW（IEEE）https://ethw.org/Telegraph"
             }
           ]
@@ -533,13 +638,18 @@
           "anchor": {
             "mesh": "city"
           },
-          "title": "工业时代人均寿命",
-          "body": "工业化初期英格兰与威尔士出生时预期寿命约30–40岁，被婴儿死亡率压低；成年人剩余预期寿命更高。",
+          "title": "人均寿命",
+          "body": "「采集狩猎者只活到 30 岁」是一个被平均出来的误解。出生时预期寿命确实只有约 30–35 岁，但那是因为大量婴儿活不过五岁；能活过童年的人，平均还能再活约 40 年，不少人活到 60 岁以上。真正的差别不在「老得多快」，而在「孩子能不能活下来」。",
           "data": [
             {
               "label": "出生时预期寿命",
-              "value": "约30–40岁",
-              "source": "Our World in Data https://ourworldindata.org/its-not-just-about-child-mortality-life-expectancy-improved-at-all-ages"
+              "value": "约 30–35 岁",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            },
+            {
+              "label": "活到成年后的平均余寿",
+              "value": "约 40 年",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
             }
           ]
         }
@@ -548,14 +658,19 @@
         "items": [
           {
             "id": "telegraph",
-            "label": "电报（1837）"
+            "label": "电报"
           },
           {
-            "id": "newspaper",
+            "id": "mass-newspaper",
             "label": "大众化报纸"
+          },
+          {
+            "id": "modern-post",
+            "label": "近代邮政"
           }
         ]
-      }
+      },
+      "intro": "煤炭和蒸汽把动力从肌肉里解放出来，生产第一次可以昼夜不停。"
     },
     {
       "id": "electric",
@@ -637,16 +752,16 @@
             "mesh": "lightbulb"
           },
           "title": "电灯与电话",
-          "body": "爱迪生实用白炽灯1879年；贝尔电话专利1876年获批。发明归属存在争议（电灯 vs Swan/电弧灯；电话贝尔 vs Gray/Meucci）。",
+          "body": "1879 年，爱迪生让白炽灯进入实用阶段，并同步建起发电、输电系统——电灯的意义不只是一盏灯，而是把电送到千家万户。1876 年，贝尔获得电话专利。灯光延长了夜晚，工厂可以两班倒，街道变得安全;电话让声音跨越城市，远方的家人第一次能「立刻」说话。",
           "data": [
             {
               "label": "电灯",
-              "value": "1879年",
+              "value": "1879 年",
               "source": "U.S. National Archives – DocsTeach https://docsteach.org/document/drawing-for-improvements-in-telegraphy/"
             },
             {
               "label": "电话",
-              "value": "1876年",
+              "value": "1876 年",
               "source": "U.S. National Archives – DocsTeach https://docsteach.org/document/drawing-for-improvements-in-telegraphy/"
             }
           ]
@@ -657,17 +772,32 @@
             "mesh": "car"
           },
           "title": "汽车与飞机",
-          "body": "本茨汽车1886年（首次试驶1885年）；莱特兄弟首次动力飞行1903年。",
+          "body": "1886 年，本茨制造的三轮汽车获得专利，人类有了第一辆真正意义上的汽车;1903 年，莱特兄弟的「飞行者一号」完成 12 秒、36 米的人类首次受控动力飞行。此后不到一个世纪，汽车开进普通家庭，飞机把跨洲旅行从数周缩短到十几个小时——「远方」变成了日常通勤与度假的距离。",
           "data": [
             {
               "label": "汽车",
-              "value": "1886年",
+              "value": "1886 年",
               "source": "Deutsches Museum https://www.deutsches-museum.de/museum/aktuell/eine-ikone-der-automobilgeschichte-wird-140"
             },
             {
               "label": "飞机",
-              "value": "1903年",
+              "value": "1903 年",
               "source": "Smithsonian National Air and Space Museum https://airandspace.si.edu/stories/editorial/explore-wright-flyer"
+            }
+          ]
+        },
+        {
+          "id": "kp-appliance",
+          "anchor": {
+            "mesh": "radiator"
+          },
+          "title": "家电与家务革命",
+          "body": "冰箱、洗衣机、吸尘器、电熨斗陆续进入家庭，家务时间大幅下降。1913 年家用冰箱出现后，食物保存从「当天吃完」变成「按周采购」，菜单和超市随之改变;洗衣机则把大量重复劳动交给机器。家电悄悄改变了家庭分工，也改变了女性的时间去向——她们开始更多地走进学校与职场。",
+          "data": [
+            {
+              "label": "家用冰箱",
+              "value": "1913 年",
+              "source": "Britannica – refrigerator https://www.britannica.com/technology/refrigerator"
             }
           ]
         },
@@ -676,13 +806,18 @@
           "anchor": {
             "mesh": "skyline"
           },
-          "title": "20世纪人均寿命",
-          "body": "全球出生时预期寿命从1900年约31–32岁升至2000年约66–67岁，大致翻倍。",
+          "title": "人均寿命",
+          "body": "「采集狩猎者只活到 30 岁」是一个被平均出来的误解。出生时预期寿命确实只有约 30–35 岁，但那是因为大量婴儿活不过五岁；能活过童年的人，平均还能再活约 40 年，不少人活到 60 岁以上。真正的差别不在「老得多快」，而在「孩子能不能活下来」。",
           "data": [
             {
-              "label": "全球预期寿命",
-              "value": "约31–32岁（1900）→ 约66–67岁（2000）",
-              "source": "World Bank WDI – Life expectancy https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+              "label": "出生时预期寿命",
+              "value": "约 30–35 岁",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            },
+            {
+              "label": "活到成年后的平均余寿",
+              "value": "约 40 年",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
             }
           ]
         }
@@ -691,14 +826,19 @@
         "items": [
           {
             "id": "telephone",
-            "label": "电话（1876）"
+            "label": "电话"
           },
           {
-            "id": "radio-tv",
-            "label": "无线电广播与电视"
+            "id": "radio",
+            "label": "无线电广播"
+          },
+          {
+            "id": "cinema-tv",
+            "label": "电影与电视"
           }
         ]
-      }
+      },
+      "intro": "电力进入家庭，汽车与飞机缩短距离，灯光把夜晚变成白天。"
     },
     {
       "id": "information",
@@ -780,16 +920,16 @@
             "mesh": "chip"
           },
           "title": "晶体管与集成电路",
-          "body": "晶体管1947年（贝尔实验室）；集成电路1958年（基尔比）。诺伊斯同期独立发明，与基尔比并称共同发明人。",
+          "body": "1947 年，贝尔实验室做出第一只点接触晶体管;1958 年，基尔比把多个元件集成到一块锗片上，做出第一块集成电路。晶体管取代了又大又热的电子管，芯片开始以指数级变小、变快。1971 年，英特尔 4004 把 2300 个晶体管放进一颗芯片——今天一部手机里的算力，是当年整间机房的千万倍。",
           "data": [
             {
               "label": "晶体管",
-              "value": "1947年",
+              "value": "1947 年",
               "source": "APS Physics Magazine https://physics.aps.org/story/v23/st16"
             },
             {
               "label": "集成电路",
-              "value": "1958年",
+              "value": "1958 年",
               "source": "National MagLab https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/pioneers/jack-kilby/"
             }
           ]
@@ -800,22 +940,37 @@
             "mesh": "computer"
           },
           "title": "互联网与万维网",
-          "body": "ARPANET 1969年首次传输；手机1973年首次手持移动电话通话；万维网1989年提出、1991年公开发布。",
+          "body": "1969 年，ARPANET 的四台计算机第一次相连；1973 年，库珀用一部手持电话完成首次移动通话；1991 年，万维网向公众开放，浏览器让普通人也能上网。互联网把计算机从「计算工具」变成「连接工具」，信息开始在世界范围内以光速流动。",
           "data": [
             {
               "label": "ARPANET",
-              "value": "1969年",
+              "value": "1969 年",
               "source": "CERN – Web History https://web30.web.cern.ch/web-history.html"
             },
             {
               "label": "手机",
-              "value": "1973年",
+              "value": "1973 年",
               "source": "Guinness World Records https://www.guinnessworldrecords.com/"
             },
             {
               "label": "万维网",
-              "value": "1991年（公开发布）",
+              "value": "1991 年",
               "source": "CERN – Web History https://web30.web.cern.ch/web-history.html"
+            }
+          ]
+        },
+        {
+          "id": "kp-media",
+          "anchor": {
+            "mesh": "tv"
+          },
+          "title": "电视与大众传媒",
+          "body": "20 世纪 50–60 年代，电视进入普通家庭。1969 年阿波罗 11 号登月，全球约 6 亿人同时观看同一画面——人类第一次拥有「共同经历的时刻」。电视塑造了大众文化、广告与公共舆论:新闻主播的声音进入客厅，灾难与庆典被同一批人看见，世界在客厅里变小。",
+          "data": [
+            {
+              "label": "登月全球直播",
+              "value": "1969 年",
+              "source": "NASA – Apollo 11 https://www.nasa.gov/mission/apollo-11/"
             }
           ]
         },
@@ -824,13 +979,18 @@
           "anchor": {
             "mesh": "server"
           },
-          "title": "信息时代人均寿命",
-          "body": "全球人均预期寿命从1950年约46岁升至2000年约68岁；65–75岁是同期高收入国家水平，非全球平均。",
+          "title": "人均寿命",
+          "body": "「采集狩猎者只活到 30 岁」是一个被平均出来的误解。出生时预期寿命确实只有约 30–35 岁，但那是因为大量婴儿活不过五岁；能活过童年的人，平均还能再活约 40 年，不少人活到 60 岁以上。真正的差别不在「老得多快」，而在「孩子能不能活下来」。",
           "data": [
             {
-              "label": "全球预期寿命",
-              "value": "约46岁（1950）→ 约68岁（2000）",
-              "source": "World Bank WDI – Life expectancy https://data.worldbank.org/indicator/SP.DYN.LE00.IN"
+              "label": "出生时预期寿命",
+              "value": "约 30–35 岁",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            },
+            {
+              "label": "活到成年后的平均余寿",
+              "value": "约 40 年",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
             }
           ]
         }
@@ -838,8 +998,8 @@
       "infoLayer": {
         "items": [
           {
-            "id": "arpanet",
-            "label": "互联网（ARPANET 1969）"
+            "id": "internet",
+            "label": "互联网"
           },
           {
             "id": "pc",
@@ -847,10 +1007,11 @@
           },
           {
             "id": "www",
-            "label": "万维网（1991）"
+            "label": "万维网"
           }
         ]
-      }
+      },
+      "intro": "芯片让计算变得廉价，网络让信息瞬间抵达，世界被连成一张网。"
     },
     {
       "id": "intelligence",
@@ -927,17 +1088,17 @@
           "anchor": {
             "mesh": "smartphone"
           },
-          "title": "智能手机与5G",
-          "body": "iPhone 2007年发布；5G 2019年商用（韩国全球首个）。注意“智能手机”概念早于iPhone（IBM Simon 1993、爱立信R380 2000）。",
+          "title": "智能手机与 5G",
+          "body": "2007 年，iPhone 把触摸屏、应用生态和移动互联网合成一台设备，手机从此成为相机、地图、钱包和办公室；其实早在 1993 年就有触屏手机雏形（IBM Simon），但真正普及的是「把一切放进一块屏」的体验。2019 年，韩国率先开启 5G 商用，网速再上一个台阶。今天数十亿人随身携带着这个时代的「总入口」。",
           "data": [
             {
               "label": "iPhone",
-              "value": "2007年（智能手机概念更早）",
+              "value": "2007 年",
               "source": "Apple Newsroom https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
             },
             {
-              "label": "5G商用",
-              "value": "2019年",
+              "label": "5G 商用",
+              "value": "2019 年（韩国）",
               "source": "Korea.net https://www.korea.net/NewsFocus/policies/view?articleId=169939"
             }
           ]
@@ -948,12 +1109,27 @@
             "mesh": "solar-panel"
           },
           "title": "光伏成本",
-          "body": "全球光伏LCOE从2010年约0.46美元/kWh降至2023年0.044美元/kWh（约降90%），2024年进一步降至约0.036美元/kWh。",
+          "body": "2010 年，全球光伏发电的平准化度电成本约为 0.46 美元;到 2023 年，这一数字降到 0.044 美元，十余年下降约 90%。光伏从「昂贵的补贴能源」变成许多地区最便宜的新增电源。成本曲线背后是硅片、电池效率与规模化制造的进步——能源转型第一次成为经济账，而不只是环保账。",
           "data": [
             {
-              "label": "LCOE",
-              "value": "约0.46→0.044美元/kWh（2010→2023）",
+              "label": "度电成本（LCOE）",
+              "value": "约 0.46 → 0.044 美元/kWh（2010 → 2023）",
               "source": "IRENA – Renewable Power Generation Costs 2023 https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023"
+            }
+          ]
+        },
+        {
+          "id": "kp-energy-transition",
+          "anchor": {
+            "mesh": "ev-car"
+          },
+          "title": "电动车与能源转型",
+          "body": "过去十年，动力电池成本下降约九成，电动车从「小众尝鲜」走向主流。2023 年全球电动车销量约 1400 万辆，中国、欧洲、美国是主要市场;充电网络、储能与智能电网也随之扩张。当风光发电、储能与电动化连成一体，能源结构正在被重写——交通第一次和发电站在同一张图上。",
+          "data": [
+            {
+              "label": "全球电动车销量",
+              "value": "约 1400 万辆（2023）",
+              "source": "IEA – Global EV Outlook 2024 https://www.iea.org/reports/global-ev-outlook-2024"
             }
           ]
         },
@@ -962,13 +1138,18 @@
           "anchor": {
             "mesh": "city"
           },
-          "title": "全球人均寿命",
-          "body": "WHO 2023年全球人均预期寿命73.3岁；世界银行口径略低（2022年约72岁），属统计口径差异。",
+          "title": "人均寿命",
+          "body": "「采集狩猎者只活到 30 岁」是一个被平均出来的误解。出生时预期寿命确实只有约 30–35 岁，但那是因为大量婴儿活不过五岁；能活过童年的人，平均还能再活约 40 年，不少人活到 60 岁以上。真正的差别不在「老得多快」，而在「孩子能不能活下来」。",
           "data": [
             {
-              "label": "全球预期寿命",
-              "value": "约73岁（WHO 2023：73.3岁）",
-              "source": "WHO Global Health Estimates https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape"
+              "label": "出生时预期寿命",
+              "value": "约 30–35 岁",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
+            },
+            {
+              "label": "活到成年后的平均余寿",
+              "value": "约 40 年",
+              "source": "Gurven & Kaplan（2007）https://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2007.00171.x"
             }
           ]
         },
@@ -978,16 +1159,16 @@
             "mesh": "robot"
           },
           "title": "大模型时间线",
-          "body": "2022年11月30日 OpenAI 发布 ChatGPT；2023年3月14日发布 GPT-4。",
+          "body": "2022 年 11 月 30 日，OpenAI 发布 ChatGPT，第一次让普通人可以直接用自然语言「指挥」一个通用模型；2023 年 3 月 14 日，GPT-4 发布，推理与多模态能力进一步跃升。大模型把生成文字、图像、代码变成通用能力，也把人工智能从实验室推到了每个人的桌面上。",
           "data": [
             {
               "label": "ChatGPT",
-              "value": "2022年11月30日",
+              "value": "2022 年 11 月 30 日",
               "source": "The Centre for Computing History https://www.computinghistory.org.uk/det/71180/OpenAI-launches-ChatGPT"
             },
             {
               "label": "GPT-4",
-              "value": "2023年3月14日",
+              "value": "2023 年 3 月 14 日",
               "source": "OpenAI – GPT-4 https://openai.com/index/gpt-4-research/"
             }
           ]
@@ -997,14 +1178,19 @@
         "items": [
           {
             "id": "smartphone",
-            "label": "智能手机（2007）"
+            "label": "智能手机"
           },
           {
-            "id": "5g-llm",
-            "label": "5G（2019）与大模型"
+            "id": "5g",
+            "label": "5G"
+          },
+          {
+            "id": "llm",
+            "label": "大模型"
           }
         ]
-      }
+      },
+      "intro": "设备开始学习，能源开始转向可再生，变化仍在进行。"
     }
   ]
 }

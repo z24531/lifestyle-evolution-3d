@@ -23,7 +23,7 @@
     { "type": "bush-berry", "pos": [-3.4, 0, 2.7], "rotY": 0.5 },
     { "type": "office-tower", "pos": [5.2, 0, -6.0], "rotY": -2.58 },
     { "type": "office-tower", "pos": [8.8, 0, -3.0], "rotY": -2.53, "scale": 0.65 },
-    { "type": "tv", "pos": [2.9, 0, -9.3], "rotY": -2.58 },
+    { "type": "tv", "anchorId": "tv", "pos": [2.9, 0, -9.3], "rotY": -2.58 },
     { "type": "tv", "pos": [7.6, 0, -9.6], "rotY": -2.42 },
     { "type": "tv", "pos": [9.0, 0, -5.8], "rotY": -2.47, "scale": 0.9 },
     { "type": "bullet-train", "pos": [5.2, 0, 3.1], "rotY": 1.5708, "scale": 0.8 },

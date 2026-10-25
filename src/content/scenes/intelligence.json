@@ -24,7 +24,7 @@
     { "type": "green-building", "pos": [9.6, 0, -3.0], "rotY": -2.6, "scale": 0.58 },
     { "type": "smartphone", "pos": [2.4, 0, -4.8], "rotY": -2.0, "anchorId": "smartphone" },
     { "type": "robot", "pos": [2.6, 0, -3.0], "rotY": -2.05, "scale": 1.1, "anchorId": "robot" },
-    { "type": "ev-car", "pos": [4.0, 0, 4.5], "rotY": 2.5, "scale": 0.9 },
+    { "type": "ev-car", "anchorId": "ev-car", "pos": [4.0, 0, 4.5], "rotY": 2.5, "scale": 0.9 },
     { "type": "ev-car", "pos": [8.0, 0, 7.6], "rotY": 2.5, "scale": 0.9 },
     { "type": "drone", "pos": [3.0, 0, 8.6], "rotY": 0.3 },
     { "type": "drone", "pos": [9.6, 0, 3.4], "rotY": -0.7 },

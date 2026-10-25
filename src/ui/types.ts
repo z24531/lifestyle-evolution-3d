@@ -11,6 +11,8 @@ export interface EraInfo {
   total: number;
   title: string;
   subtitle: string;
+  /** 时代导语:信息卡上的第二行小字(可缺省)。 */
+  intro?: string;
   themeColor: string;
 }
 

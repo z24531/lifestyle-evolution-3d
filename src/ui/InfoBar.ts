@@ -12,11 +12,11 @@ export interface InfoBar {
 const SWAP_OUT_MS = 160;
 
 function eraKey(era: EraInfo): string {
-  return `${era.index}/${era.total}/${era.title}/${era.subtitle}/${era.themeColor}`;
+  return `${era.index}/${era.total}/${era.title}/${era.subtitle}/${era.intro ?? ''}/${era.themeColor}`;
 }
 
 /**
- * 左下角时代信息卡:编号(01/07)+ 时代名 + 一句话定位 + 主题色竖条。
+ * 左下角时代信息卡:编号(01/07)+ 时代名 + 一句话定位 + 时代导语 + 主题色竖条。
  * 切换时代时先淡出、换内容、再淡入。
  */
 export function createInfoBar(root: HTMLElement): InfoBar {
@@ -36,7 +36,8 @@ export function createInfoBar(root: HTMLElement): InfoBar {
 
   const titleEl = el('h2', 'ui-info__title');
   const subtitleEl = el('p', 'ui-info__subtitle');
-  body.append(meta, titleEl, subtitleEl);
+  const introEl = el('p', 'ui-info__intro');
+  body.append(meta, titleEl, subtitleEl, introEl);
   host.append(bar, body);
   root.append(host);
 
@@ -50,6 +51,8 @@ export function createInfoBar(root: HTMLElement): InfoBar {
     totalEl.textContent = pad2(era.total);
     titleEl.textContent = era.title;
     subtitleEl.textContent = era.subtitle;
+    introEl.textContent = era.intro ?? '';
+    introEl.hidden = !era.intro;
     host.style.setProperty('--era-color', era.themeColor);
     bar.style.background = era.themeColor;
   }

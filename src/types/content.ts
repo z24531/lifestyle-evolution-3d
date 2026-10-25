@@ -38,6 +38,8 @@ export interface Era {
   index: number;
   title: string;
   subtitle: string;
+  /** 时代导语:一句更完整的开场白(左下信息卡小字展示)。 */
+  intro?: string;
   themeColor: string;
   /** 未来接 glb 资产的插槽;程序化渲染不读取。 */
   model?: string;

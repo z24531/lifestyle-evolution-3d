@@ -4,6 +4,8 @@ export interface IntroCardOptions {
   title: string;
   subtitle: string;
   hint: string;
+  /** 副标题下的一行小字,例如「约 100 万年前 → 今天 · 7 个时代 · 30 个知识点」。 */
+  meta?: string;
 }
 
 export interface IntroCard {
@@ -31,6 +33,9 @@ export function createIntroCard(root: HTMLElement, opts: IntroCardOptions): Intr
   const title = el('h1', 'ui-intro__title', opts.title);
   const subtitle = el('p', 'ui-intro__subtitle', opts.subtitle);
 
+  const meta = el('p', 'ui-intro__meta', opts.meta ?? '');
+  meta.hidden = !opts.meta;
+
   const hint = el('div', 'ui-intro__hint');
   const hintLine = el('span', 'ui-intro__hint-line');
   hintLine.setAttribute('aria-hidden', 'true');
@@ -39,7 +44,7 @@ export function createIntroCard(root: HTMLElement, opts: IntroCardOptions): Intr
   hintChevron.setAttribute('aria-hidden', 'true');
   hint.append(hintLine, hintText, hintChevron);
 
-  inner.append(spectrum, title, subtitle, hint);
+  inner.append(spectrum, title, subtitle, meta, hint);
   host.append(inner);
   root.append(host);
 
