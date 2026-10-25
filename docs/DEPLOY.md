@@ -12,7 +12,12 @@
 
 ## 0.0 ⚠️ 私有仓库限制(先看这条)
 
-当前仓库是 **Private**。GitHub 只在 **公开仓库** 或 **付费套餐(GitHub Pro/Team/Enterprise)** 下提供 Pages。
+> **已完成(2026-10-25)**:仓库已设为 **Public**,Pages 已通过 GitHub Actions 自动启用并成功上线:
+> **https://z24531.github.io/lifestyle-evolution-3d/**
+>
+> 以下为「若仓库仍是 Private」时的参考说明,保留备查:
+
+GitHub 只在 **公开仓库** 或 **付费套餐(GitHub Pro/Team/Enterprise)** 下提供 Pages。
 如果打开 **Settings → Pages** 看不到可选的 Source,说明受此限制,二选一:
 
 - **方案 A(推荐,免费)**:仓库 Settings → General → Danger Zone → **Change visibility → Public**,然后回到 Settings → Pages,Source 选 **GitHub Actions**;
